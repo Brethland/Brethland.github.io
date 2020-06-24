@@ -1,0 +1,143 @@
+---
+layout: post
+title: Topology without Tears Notes
+categories: archives
+excerpt: My notes when learning topology.
+---
+
+<h1 id="ch1-topological-spaces">CH1 Topological Spaces</h1>
+<h2 id="topology">1.1 Topology</h2>
+<h3 id="definition">1.1.1 Definition</h3>
+<p>Let X be a non-empty set. A set τ of subsets of X is said to be a <strong>topology</strong> on X if</p>
+<ol>
+  <li>X ∈ τ and ∅ ∈ τ,</li>
+  <li>the union of any (infinite or finite) number of sets in τ belongs to τ, and</li>
+  <li>the intersection of any two sets in τ belongs to τ.</li>
+</ol>
+<p>The pair (X, τ) is called a <strong>topological space</strong>.</p>
+<p>for example, Let N be the set of all natural numbers, let τ<sub>4</sub> consist of N, ∅, and all <em>finite</em>
+  subsets of N. Then τ<sub>4</sub> is <em>not</em> a topology on N as any infinite union of sets in τ is not belonged
+  to τ.</p>
+<h3 id="definition-1">1.1.2 Definition</h3>
+<p>Let X be any non-empty set and let τ be the collection of all subsets of X, then τ is called the <strong>discrete
+    topology</strong> on X. The yopology space (X, τ) is called a <strong>discrete space</strong>.</p>
+<p>There will be infinite number of discrete spaces.</p>
+<p>If every infinite subset of an infinite subset is open or all infinite subsets are closed, then τ must be the
+  discrete topology.</p>
+<h3 id="definition-2">1.1.3 Definition</h3>
+<p>Let X be any non-empty set and τ = {X, ∅}. Then τ is called the <strong>indiscrete topology</strong> and (X, τ) is
+  said to be an <strong>indiscrete space</strong>.</p>
+<p>There are also infinite number of indiscrete spaces.</p>
+<h3 id="proposition">1.1.4 Proposition</h3>
+<p>If (X, τ) is a topological space such that, for every x ∈ X, the singletion set {x} is in τ, then τ is a discrete
+  topology.</p>
+<p>We can see that if S be any subset of X, then</p>
+<p>S = ∪<sub>x ∈ S</sub> x.</p>
+<p>Since S is in τ, then τ is the set of all subsets of X.</p>
+<p>Moreover, if <em>all</em> infinite subsets of an infinite set X is in topology τ, then τ must be a discrete
+  topology, the proof is related to open and close sets.</p>
+<h2 id="open-sets-closed-sets-and-clopen-sets">1.2 Open Sets, Closed Sets, and Clopen Sets</h2>
+<h3 id="definition-3">1.2.1 Definition</h3>
+<p>Let (X, τ) be any topological space. Then the members of τ are said to be <strong>open sets</strong>.</p>
+<h3 id="proposition-1">1.2.2 Proposition</h3>
+<p>If (X, τ) is any topological space, then</p>
+<ol>
+  <li>X and ∅ are open sets,</li>
+  <li>the union of any (finite or infinite) number of open sets is an open set, and</li>
+  <li>the intersection of any finite number of open sets is an open set.</li>
+</ol>
+<p>We can find that infinite intersections of open sets may not be open.</p>
+<h3 id="definition-4">1.2.3 Definition</h3>
+<p>Let (X, τ) be a topological space. A subset S of X is said to be a <strong>closed set</strong> in (X, τ) if its
+  complement in X, namely X \ S, is Open in (X, τ).</p>
+<h3 id="proposition-2">1.2.4 Proposition</h3>
+<p>If (X, τ) is any topological space, then</p>
+<ol>
+  <li>∅ and X are closed sets,</li>
+  <li>the intersection of any (finite or infinite) number of closed sets is a closed set and</li>
+  <li>the union of any finite number of closed sets is a closed set.</li>
+</ol>
+<p>A set can be either open or closed or open and closed or neither open nor closed.</p>
+<h3 id="definition-5">1.2.5 Definition</h3>
+<p>A subset S of a topological space (X, τ) is said to be <strong>clopen</strong> if it is both open and closed in (X,
+  τ).</p>
+<h2 id="the-finite-closed-topology">1.3 The Finite-Closed Topology</h2>
+<p>Sometimes it is more natural to define topology by saying which sets are closed.</p>
+<h3 id="definition-6">1.3.1 Definition</h3>
+<p>Let X be any non-empty set. A topology τ on X is called the <strong>finite-closed topology</strong> or the
+  <strong>cofinite topology</strong> if the closed subsets of X are X and all finite subsets of X.</p>
+<p>While all finite sets are closed, not all infinite sets are open. If a topological space has at least 3 distinct
+  clopen subsets, then X must be a finite set.</p>
+<h3 id="definition-7">1.3.2 Definition</h3>
+<p>Let f be a function from a set X into a set Y.</p>
+<ol>
+  <li>The function f is said to be <strong>injective</strong> if f(x<sub>1</sub>) = f(x<sub>2</sub>) implies
+    x<sub>1</sub> = x<sub>2</sub>, for x<sub>1</sub>, x<sub>2</sub> ∈ X;</li>
+  <li>The function f is said to be <strong>surjective</strong> if for each y ∈ Y there exists an x ∈ X such that f(x)
+    = y;</li>
+  <li>The function f is said to be <strong>bijective</strong> if it is both injective and surjective.</li>
+</ol>
+<h3 id="definition-8">1.3.3 Definition</h3>
+<p>Let f be a function from a set X into a set Y. The function f is said to <strong>have an inverse</strong> if there
+  exists a function g of Y into X such that g(f(x)) = x, for all x ∈ X and f(g(y)) = y, for all y ∈ Y. The function g
+  is called an <strong>inverse function</strong> of f.</p>
+<h3 id="proposition-3">1.3.4 Proposition</h3>
+<p>Let f be a function from a set X into a set Y.</p>
+<ol>
+  <li>The function f has an inverse if and only if f is bijective.</li>
+  <li>Inverse is unique.</li>
+  <li>g is an inverse function of f if and only if f is an inverse function of g.</li>
+</ol>
+<h3 id="definition-9">1.3.5 Definition</h3>
+<p>Let f be a function from a set X into a set Y. If S is any subset of Y, then the set f<sup>-1</sup>(S) is defined
+  by</p>
+<p>f<sup>-1</sup>(S) = {x : x ∈ X and f(x) ∈ S}.</p>
+<p>The subset f<sup>-1</sup>(S) of X is said to be the <strong>inverse image</strong> of S.</p>
+<p>There's an interesting conclusion of topology and inverse image: Let (Y, τ) be a topological space and X a
+  non-empty set. Further, let f be a function from X into Y. Put τ<sub>1</sub> = {f<sup>-1</sup>(S) : S ∈ τ}. Then
+  τ<sub>1</sub> is a topology on X.</p>
+<h3 id="definition-10">1.3.6 Definition</h3>
+<p>A topological space (X,τ) is said to be a <strong>T<sub>1</sub>-space</strong> if every singleton set {x} is closed
+  in (X, τ).</p>
+<p>A discrete space or an infinite set with the finite-set topology is a T<sub>1</sub>-space.</p>
+<p>A topological space is said to be a <strong>T<sub>0</sub>-space</strong> if for each pair of distinct points a, b
+  in X, either there exists an open set containing a and not b, or there exists an open set containing b and not a.
+</p>
+<p>Every T<sub>1</sub>-space is a T<sub>0</sub>-space.</p>
+<h1 id="ch2-the-euclidean-topology">CH2 The Euclidean Topology</h1>
+<h2 id="the-euclidean-topology-on-r">2.1 The Euclidean Topology on R</h2>
+<h3 id="definition-11">2.1.1 Definition</h3>
+<p>A subset S of R is said to be open in the <strong>euclidean topology on R</strong> if it has the following
+  property:</p>
+<ul>
+  <li>For each x ∈ S, there exist a, b in R, with a &lt; b, such that x ∈ (a, b) ⊆ S.</li>
+</ul>
+<p>We have following interesting collaries from this definition.</p>
+<ol>
+  <li>Let r, s ∈ R with r &lt; s. In the euclidean topology τ on R, (r, s) is an open set.</li>
+  <li>(r, ∞) and (-∞, r) are open sets for every real number r.</li>
+  <li><em>Not</em> all open sets in euclidean space are intervals.</li>
+  <li>For each c and d in R with c &lt; d, [c, d] is <em>not</em> an open set in R.</li>
+  <li>For each a and b in R with a &lt; b, [a, b] is a closed set in the euclidean topology on R.</li>
+  <li>R is a T<sub>1</sub>-space.</li>
+  <li>Z is a closed subset of R.</li>
+  <li>Q is neither a closed subset nor an open subset of R.</li>
+  <li>The only clopen subsets of R are only R and ∅.</li>
+</ol>
+<h2 id="basis-for-a-topology">2.2 Basis for a Topology</h2>
+<h3 id="proposition-4">2.2.1 Proposition</h3>
+<p>A subset S of R is open if and only if it is a union of open intervals.</p>
+<h3 id="definition-12">2.2.2 Definition</h3>
+<p>Let (X, τ) be a topological space. A collection B of open subsets of X is said to be a <strong>basis</strong> for
+  the topology τ if every open set is a union of members of B.</p>
+<p>B generates the whole topological space like basis in vector space in linear algebra.</p>
+<p>τ itself is a basis for τ. We do have many bases for a topology. Generally, if B is a basis for τ, then let
+  B<sub>1</sub> is a collection of subsets of X such that B ⊆ B<sub>1</sub> ⊆ τ, then B<sub>1</sub> is also a basis
+  for τ.</p>
+<h3 id="proposition-5">2.2.3 Proposition</h3>
+<p>Let X be a non-empty set and let B be a collection of subsets of X. Then B is a basis for a topology on X if and
+  only if B has the following properties:</p>
+<ol>
+  <li>X = ∪<sub>b ∈ B</sub>b and</li>
+  <li>for any b<sub>1</sub>, b<sub>2</sub> ∈ B, the set b<sub>1</sub> ∩ b<sub>2</sub> is a union of members of B.</li>
+</ol>
