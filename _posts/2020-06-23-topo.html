@@ -141,3 +141,67 @@ excerpt: My notes when learning topology.
   <li>X = ∪<sub>b ∈ B</sub>b and</li>
   <li>for any b<sub>1</sub>, b<sub>2</sub> ∈ B, the set b<sub>1</sub> ∩ b<sub>2</sub> is a union of members of B.</li>
 </ol>
+<p>Generally, we can define a euclidean topology on R<sup>n</sup> = {&lt;x<sub>1</sub>, x<sub>2</sub>, …,
+  x<sub>n</sub>&gt; : x<sub>i</sub> ∈ R, i = 1, 2, …, n} as B = {&lt;x<sub>1</sub>, x<sub>2</sub>, …,
+  x<sub>n</sub>&gt; ∈ R<sup>n</sup> : a<sub>i</sub> &lt; x<sub>i</sub> &lt; b<sub>i</sub>, i = 1, 2, …, n} of
+  R<sup>n</sup> with sides parallel to the axes.</p>
+<p>Infact, we will often use open discs as a group of basis since it it the expantion of intervals on R.</p>
+<h3 id="definition-13">2.2.4 Definition</h3>
+<p>A topological space (X, τ) is said to satisfy the <strong>second axiom of countability</strong> if there exists a
+  basis B for τ, where B consists of only a countable number of sets.</p>
+<h2 id="basis-for-a-given-topology">2.3 Basis for a Given Topology</h2>
+<h3 id="proposition-6">2.3.1 Proposition</h3>
+<p>Let (X, τ) be a topological space. A family B of open subsets of X is a basis for τ if and only if for any point x
+  belonging to any open set U, there is a b ∈ B such that x ∈ b ⊆ U.</p>
+<h3 id="proposition-7">2.3.2 Proposition</h3>
+<p>Let B be a basis for a topology τ on a set X. Then a subset U of X is open if and only if for each x ∈ U there
+  exists a b ∈ B such that x ∈ b ⊆ U.</p>
+<h3 id="proposition-8">2.3.3 Proposition</h3>
+<p>Let B<sub>1</sub> and B<sub>2</sub> be bases for topologies τ<sub>1</sub> and τ<sub>2</sub>, respectively, on a
+  non-empty set X. Then τ<sub>1</sub> = τ<sub>2</sub> if and only if</p>
+<ol>
+  <li>for each b ∈ B<sub>1</sub> and each x ∈ b, there exists a b' ∈ B<sub>2</sub> such that x ∈ b' ⊆ b, and</li>
+  <li>for each b ∈ B<sub>2</sub> and each x ∈ b, there exists a b' ∈ B<sub>1</sub> such that x ∈ b' ⊆ b.</li>
+</ol>
+<h3 id="definition-14">2.3.4 Definition</h3>
+<p>Let (X, τ) be a topological space. A non-empty collection S of open subsets of X is said to be a
+  <strong>subbasis</strong> for τ if the collection of all finite intersections of members of S forms a basis for τ.
+</p>
+<h1 id="ch3-limit-points">CH3 Limit Points</h1>
+<h2 id="limit-points-and-closure">3.1 Limit Points and Closure</h2>
+<p>It is better to say the elements of set X as <strong>point</strong> if (X, τ) is a topological space.</p>
+<h3 id="definition-15">3.1.1 Definition</h3>
+<p>Let A be a subset of a topological space (X, τ). A point x ∈ X is said to be a <strong>limit point</strong> (or
+  <strong>accumulation point</strong> or <strong>cluster point</strong>) <strong>of A</strong> if every open set U,
+  containing x contains a point of A different from x.</p>
+<p>It is easy to verify that discrete space has no limit point. In indiscrete space, a set with at least two point
+  will have all x ∈ X as its limit points.</p>
+<h3 id="proposition-9">3.1.2 Proposition</h3>
+<p>Let A be a subset of a topological space (X, τ). Then A is closed in (X, τ) if and only if A contains all of its
+  limit points.</p>
+<h3 id="proposition-10">3.1.3 Proposition</h3>
+<p>Let A be a subset of a topological space (X, τ) and A' the set of all limit points of A. Then A ∪ A' is a closed
+  set.</p>
+<h3 id="definition-16">3.1.4 Definition</h3>
+<p>Let A be a subset of a topological space (X, τ). Then the set A ∪ A' consisting of A and all its limit points is
+  called the <strong>closure of A</strong> and is denoted by \~{A}.</p>
+<p>\~{A} is the smallest closed set containing A, this implies that \~{A} is the intersection of all closed sets
+  containing A.</p>
+<p>For example, the closure of Q on R is R as every interval must contain one rational number.</p>
+<h3 id="definition-17">3.1.5 Definition</h3>
+<p>Let A be a subset of a topological space (X, τ). Then A is said to be <strong>dense</strong> in X or
+  <strong>everywhere dense</strong> in X if \~{A} = X.</p>
+<p>So Q is a dense subset of R.</p>
+<h3 id="proposition-11">3.1.6 Proposition</h3>
+<p>Let A be a subset of a topological space (X, τ). Then A is dense in X if and only if every non-empty open subset of
+  X intersects A non-trivially (that is, if U ∈ τ and U ≠ ∅ then A ∩ U ≠ ∅).</p>
+<h2 id="neighbourhoods">3.2 Neighbourhoods</h2>
+<h3 id="definition-18">3.2.1 Definition</h3>
+<p>Let (X, τ) be a topological space, N a subset of X and <em>p</em> a point in N. Then N is said to be a
+  <strong>neighbourhood</strong> of the point if there exists an open set U such that p ∈ U ⊆ N.</p>
+<h3 id="proposition-12">3.2.2 Proposition</h3>
+<p>Let A be a subset of a topological space (X, τ). A point x ∈ X is a limit point of A if and only if every
+  neighbourhood of x contains a point of A different from x.</p>
+<h3 id="corollary">3.2.3 Corollary</h3>
+<p>Let U be a subset of a topological space (X, τ). Then U ∈ τ if and only if for each x ∈ U there exists a V ∈ τ such
+  that x ∈ V ⊆ U.</p>

@@ -69,6 +69,4 @@ Should I quote myself as a talented language learner? The answer is definitely n
 
 Anyway, all experiences above are mine, who write this boring article instead of reviewing German one week before B1 Test(lol).
 
-​		Brethland
-
 ----
