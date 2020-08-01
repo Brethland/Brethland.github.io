@@ -2,6 +2,7 @@
 layout: post
 title: Topology without Tears Notes
 categories: archives
+date:   2020-08-01 +0800
 excerpt: My notes when learning topology.
 ---
 
@@ -205,3 +206,107 @@ excerpt: My notes when learning topology.
 <h3 id="corollary">3.2.3 Corollary</h3>
 <p>Let U be a subset of a topological space (X, τ). Then U ∈ τ if and only if for each x ∈ U there exists a V ∈ τ such
   that x ∈ V ⊆ U.</p>
+<h3 id="definition-19">3.2.4 Definition</h3>
+<p>A topological space (X, τ) is said to be <strong>separable</strong> if it has a dense subset which is countable.</p>
+<h2 id="connectedness">3.3 Connectedness</h2>
+<h3 id="lemma">3.3.1 Lemma</h3>
+<p>Let <em>S</em> be a subset of <em>R</em> which is bounded above and let <em>p</em> be the supremum of <em>S</em>. If
+  <em>S</em> is a closed subset of <em>R</em>, then <em>p</em> ∈ <em>S</em>.</p>
+<h3 id="proposition-13">3.3.2 Proposition</h3>
+<p>Let <em>T</em> be a clopen subset of <em>R</em>. Then either <em>T</em> = <em>R</em> or <em>T</em> = ∅.</p>
+<h3 id="definition-20">3.3.3 Definition</h3>
+<p>Let (X, τ) be a topological space. Then it is said to be <strong>connected</strong> if the only clopen subsets of
+  <em>X</em> are <em>X</em> and ∅.</p>
+<p>R is connected as above.</p>
+<h3 id="proposition-14">3.3.4 Proposition</h3>
+<p>A topological space (X, τ) is disconnected if and only if there are non-empty open sets <em>A</em> and <em>B</em>
+  such that <em>A</em> ∩ <em>B</em> = ∅ and <em>A</em> ∪ <em>B</em> = X.</p>
+<h1 id="ch4-homeomorphisms">CH4 Homeomorphisms</h1>
+<h2 id="subspaces">4.1 Subspaces</h2>
+<h3 id="definition-21">4.1.1 Definition</h3>
+<p>Let <em>Y</em> be a non-empty subset of a topological space (X, τ). The collection τ<sub>Y</sub> = {O ∩ Y : O ∈ τ} of
+  subsets of <em>Y</em> is a topology on <em>Y</em> called the <strong>subspace topology</strong> (or the
+  <strong>relative topology</strong> or the <strong>induced topology</strong> or the *topology induced on <em>Y</em> by
+  <em>τ</em>*). The topological space (Y, τ<sub>Y</sub>) is said to be a <strong>subspace</strong> of (X, τ).</p>
+<p>Since the subspace will change the sets' properties, we must make clear in what space or what topology when we are
+  talking about properties like open and close.</p>
+<p>Topology induced on <em>Z</em> by eulidean topology on <em>R</em> is a discrete topology.</p>
+<h3 id="definition-22">4.1.2 Definition</h3>
+<p>A topological space (X, τ) is said to be <strong>Hausdorff</strong> (or a <strong>T<sub>2</sub> space</strong>) if
+  given any pair of distinct points <em>a</em>, <em>b</em> in <em>X</em> there exists open sets <em>U</em> and
+  <em>V</em> such that <em>a</em> ∈ <em>U</em>, <em>b</em> ∈ <em>V</em>, and <em>U</em> ∩ <em>V</em> = ∅.</p>
+<p>every T<sub>2</sub> space is a T<sub>1</sub> space.</p>
+<p>R is a T<sub>2</sub> space, and any subspace of T<sub>2</sub> space is a T<sub>2</sub> space.</p>
+<h3 id="definition-23">4.1.3 Definition</h3>
+<p>A topological space (X, τ) is said to be a <strong>regular space</strong> if for any closed subset <em>A</em> of
+  <em>X</em> and any point <em>x</em> ∈ <em>X</em> \ <em>A</em>, there exist open sets <em>U</em> and <em>V</em> such
+  that <em>x</em> ∈ <em>U</em>, <em>A</em> ⊆ <em>V</em>, and <em>U</em> ∩ <em>V</em> = ∅. If (X, τ) is regular and a
+  T<sub>1</sub> space, then it is said to be a <strong>T<sub>3</sub> space</strong>.</p>
+<h2 id="homeomorphisms">4.2 Homeomorphisms</h2>
+<h3 id="definition-24">4.2.1 Definition</h3>
+<p>Let (X, τ) and (Y, τ<sub>1</sub>) be topological spaces. Then they are said to be <strong>homeomorphic</strong> if
+  there exists a function <em>f</em>: <em>X</em> → <em>Y</em> which has the following properties:</p>
+<ol>
+  <li><em>f</em> is a bijection</li>
+  <li>for each <em>U</em> ∈ τ<sub>1</sub>, /f/<sup>-1</sup>(U) ∈ τ, and</li>
+  <li>for each <em>V</em> ∈ τ, /f/(V) ∈ τ<sub>1</sub>.</li>
+</ol>
+<p>Further, the map <em>f</em> is said to be a <strong>homeomorphism</strong> between (X, τ) and (Y, τ<sub>1</sub>). We
+  write (X, τ) ≡ (Y, τ<sub>1</sub>).</p>
+<p>Homeomorphism is a equivalence relation.</p>
+<p>Every open interval (a, b) is homeomorphic to <em>R</em>.</p>
+<h2 id="non-homeomorphic-spaces">4.3 Non-Homeomorphic Spaces</h2>
+<h3 id="proposition-15">4.3.1 Proposition</h3>
+<p>Any topological space homeomorphic to a connected space is connected.</p>
+<h3 id="remark">4.3.2 Remark</h3>
+<p>So far we have known twelve properties preserved by homeomorphisms, they are:</p>
+<ol>
+  <li>T<sub>0</sub>-space, T<sub>1</sub>-space, T<sub>2</sub>-space, regular space and T<sub>3</sub>-space</li>
+  <li>the second axiom of countability</li>
+  <li>separable space</li>
+  <li>discrete and indiscrete space</li>
+  <li>cofinite and cocountable space</li>
+  <li>connectness</li>
+</ol>
+<p>If we want to prove two spaces are not homeomorphic, we just need to check whether one meets these properties and
+  another not.</p>
+<p>Also, homeomorphism must have the same cardinality on set and topology.</p>
+<h3 id="definition-25">4.3.3 Definition</h3>
+<p>A subset of <em>S</em> of <em>R</em> is said to be an <strong>interval</strong> if it has the following property: if
+  <em>x</em> ∈ <em>S</em>, <em>z</em> ∈ <em>S</em>, and <em>y</em> ∈ <em>R</em> are such that <em>x</em> &lt; <em>y</em>
+  &lt; <em>z</em>, then <em>y</em> ∈ <em>S</em>.</p>
+<h3 id="proposition-16">4.3.4 Proposition</h3>
+<p>A subspace <em>S</em> of <em>R</em> is connected if and only if it is an interval.</p>
+<h3 id="corollary-1">4.3.5 Corollary</h3>
+<p>If <em>a</em>, <em>b</em>, <em>c</em>, and <em>d</em> are real numbers with <em>a</em> &lt; <em>b</em> and <em>c</em>
+  &lt; <em>d</em>, then</p>
+<ol>
+  <li>(a, b) ¬≡ [c, d),</li>
+  <li>(a, b) ¬ ≡ [<em>c</em>, <em>d</em>], and</li>
+  <li>[a, b) ¬ ≡ [<em>c</em>, <em>d</em>].</li>
+</ol>
+<h1 id="ch5-continuous-mappings">CH5 Continuous Mappings</h1>
+<h2 id="continuout-mappings">5.1 Continuout Mappings</h2>
+<h3 id="lemma-1">5.1.1 Lemma</h3>
+<p>Let <em>f</em> be a function mapping <em>R</em> into itself. Then <em>f</em> is continuous if and only if for each
+  <em>a</em> ∈ <em>R</em> and each open set <em>U</em> containing /f/(a), there exists an open set <em>V</em> containing
+  <em>a</em> such that /f/(V) ⊆ <em>U</em>.</p>
+<h3 id="lemma-2">5.1.2 Lemma</h3>
+<p>Let <em>f</em> be a mapping of a topological space (X, τ) into a topological space (Y, τ'). Then the following two
+  conditions are equivalent:</p>
+<ol>
+  <li>for each <em>U</em> ∈ τ', <em>f<sup>-1</sup></em> (U) ∈ τ;</li>
+  <li>for each <em>a</em> ∈ <em>X</em> and each <em>U</em> ∈ τ' with /f/(a) ∈ <em>U</em>, there exists a <em>V</em> ∈ τ
+    such that <em>a</em> ∈ <em>V</em> and /f/(V) ⊆ <em>U</em>.</li>
+</ol>
+<h3 id="definition-26">5.1.3 Definition</h3>
+<p>Let (X, τ) and (Y, τ<sub>1</sub>) be topological spaces and <em>f</em> a function from <em>X</em> into <em>Y</em>.
+  Then <em>f</em> : (X, τ) → (Y, τ<sub>1</sub>) is said to be a <strong>continuous mapping</strong> if for each
+  <em>U</em> ∈ τ<sub>1</sub>, <em>f<sup>-1</sup></em> (U) ∈ τ.</p>
+<p>Continuous relation is transitive.</p>
+<p>If <em>f</em> and its inverse are all continuous, then <em>f</em> is a homeomorphism.</p>
+<h3 id="proposition-17">5.1.4 Proposition</h3>
+<p>Let (X, τ) and (Y, τ<sub>1</sub>) be topological spaces, <em>f</em> : (X, τ) → (Y, τ<sub>1</sub>) a continuous
+  mapping. <em>A</em> a subset of <em>X</em>, and τ<sub>2</sub> the induced topology on <em>A</em>. Further let
+  <em>g</em> : (A, τ<sub>2</sub>) → (Y, τ<sub>1</sub>) be the restriction of <em>f</em> to <em>A</em>; that is, /g/(x) =
+  /f/(x), for all <em>x</em> ∈ <em>A</em>. Then <em>g</em> is continuous.</p>
