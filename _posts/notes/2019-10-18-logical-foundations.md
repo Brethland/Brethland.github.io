@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Logical Foundation Notes"
+title:  "Logical Foundations Notes"
 date:   2019-10-18 +0800
-categories: archives
+categories: notes
+excerpt: Software Foundations volume 1 notes.
 ---
 
 <!--more-->
