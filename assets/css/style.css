@@ -85,7 +85,7 @@ hr::after {
 
 strong, em { font-variant-ligatures: normal; }
 
-em { opacity: .5; }
+em { opacity: .75; }
 
 code {
     font-family: var(--code-font);

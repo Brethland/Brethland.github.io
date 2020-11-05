@@ -9,15 +9,11 @@ tag: summary
 
 Since I am not a specialist on linguistics and did not receive some systematical linguistic education, I shall just talk some pieces on language learning, and the article will be no referential value at all.
 
-----
-
 ### Mother Languages
 
 My mother languages are Mandarin and Wu Chinese(A part of Sinitic language spoken mainly in Southern Jiangsu, Shanghai and Zhejiang). These years Wu faces a hard situation on inheritance and promotion, as young generations choose to speak more Mandarin instead of their mother tongue. In some families, parents also lack the ability to speak Wu well, not to say children. The government played a role in promoting Mandarin and limiting dialects in China at first, which was a vivid difference compared to Republic of China governments before 1949. 
 
 I may become the last generation to maintain Wu fluently, this gives me a great help after I learned International Phonetic Alphabet(IPA). Wu Chinese has many consonants and vowels that Mandarin does not have. It preserves many characteristics in Middle Chinese and becomes one of the languages which has most vowel phonemes in the world. 
-
-----
 
 ### English
 
@@ -28,8 +24,6 @@ University gives a different way to study English. Different professions vary in
 I began to get the tricks in English study at 8th or 9th grade. After that, I did not listen any English class in high school. At first, I just found it simple to read and understand English articles in exercises, then I tried to read some books, giving the same feedback. Even at Gaokao in Jiangsu, which is admitted as the hardest in English, especially in reading comprehension, I did not meet any challenge. The ability of listening and speaking may be improved later in high school, but it did not matter anymore. Mastering the English study opened a door for me as to select and compose words in English to express or understand as mother languages. 
 
 At this level, you should find yourself not be learning or fighting against English, you use it just as a tool like mathematics and mechanics.
-
-----
 
 ### Japanese
 
@@ -43,8 +37,6 @@ I lost interest of continuing learning soon, leaving some ability to read, to sp
 
 One last thing is that, I find my language learning speed can be different in aspects: Reading and grammar rules are the easiest part, while listening and sometime, speaking could be a huge weakness. In another word, I am much more comfortable with writings other than speeches.
 
-----
-
 ### Latin...and Linguistics
 
 As a reader of western literatures from childhood, Latin and Greek are always beautiful languages in my opinion. I began to learn Lingua Latina at 11th grade. Books like *Latin Grammars* and *100 Latin Sentences You Have to know* gave me a first glance. I spent most of the time in grammar remembering. I was exhausted before this super complicate system, so I decided to conclude similar parts in Romance Languages and Germanic Languages in order to simplify learning methods.
@@ -57,8 +49,6 @@ Even programming languages studying gain benefits from linguistic. Following the
 
 Deep thoughts on language philosophy, linguistic and computer science are always an interest for me. I will try to answer some big-picture questions with my works and personal understandings in future.
 
-----
-
 Should I quote myself as a talented language learner? The answer is definitely no. Common senses like "People with INFP type learn language much more easily" is just a relief in psychology aspect. however, there are some tricks I do can share to everyone in learning a language.
 
 1. **Mapping**: Map words and grammars like sentence architecture into your mother language or any other language you have learnt. This is a convenient way for you to build a head-first concept on new language.
@@ -67,5 +57,3 @@ Should I quote myself as a talented language learner? The answer is definitely n
 4. **Corpus Bombing**: To be honest, this is not a perfect way to improve your reading and speaking. But as to me, this is the only way. Don't be afraid of reading raw corpus without dictionary, listening speeches, even speaking to yourselves.
 
 Anyway, all experiences above are mine, who write this boring article instead of reviewing German one week before B1 Test(lol).
-
-----
