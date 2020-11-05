@@ -2,13 +2,12 @@
 layout: post
 title:  "On Language Acquisition"
 date:   2020-05-14 +0800
-categories: archives
+categories: Journal
+tag: summary
 ---
 
 
 Since I am not a specialist on linguistics and did not receive some systematical linguistic education, I shall just talk some pieces on language learning, and the article will be no referential value at all.
-
-<!--more-->
 
 ----
 

@@ -1,19 +1,7 @@
-<div class="navbar navbar-expand">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">{{ site.brand }}</a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
-      aria-controls="nav-content" aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nav-content">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="{{"/archives/" | prepend: site.baseurl }}">ARCHIVES</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{"/notes/" | prepend: site.baseurl }}">NOTES</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{"/links.html" | prepend: site.baseurl }}">LINKS</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+<header class="header">
+  <h1>{{ site.brand  }}</h1>
+  <nav class="nav">
+    <a href="{{"/" | prepend: site.baseurl }}">Home</a>
+    <a href="{{"/links/" | prepend: site.baseurl }}">Link</a>
+  </nav>
+</header>

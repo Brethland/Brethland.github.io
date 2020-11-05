@@ -1,19 +1,7 @@
 ---
 layout: default
 ---
-
-<div class="container-fluid">
-    <a href="{{ page.url | prepend: site.baseurl }}">
-        <h1>{{ page.title }}</h1>
-    </a>
+    <h2>{{ page.title }}</h2>
 
     <div class="post-meta">{{ page.date | date: "%d-%-m-%-Y" }} </div>
-    <div id="toc"></div>
     {{ content }}
-</div>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#toc').toc();
-    });
-</script>

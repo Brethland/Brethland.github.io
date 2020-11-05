@@ -2,8 +2,8 @@
 layout: post
 title:  "Logical Foundations Notes"
 date:   2019-10-18 +0800
-categories: notes
-excerpt: Software Foundations volume 1 notes.
+categories: Notes
+tag: cs
 ---
 
 <!--more-->

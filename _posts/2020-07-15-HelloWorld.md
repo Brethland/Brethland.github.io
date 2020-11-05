@@ -2,12 +2,11 @@
 layout: post
 title: 你好吗？世界
 date:   2020-07-15 +0800
-categories: archives
+categories: Journal
+tag: summary
 ---
 
 这是2019.7 - 2020.7的个人总结，以后也会在生日这天发布。也正是因为前一年发生了如此之多的事件，才促使我思考并记录下来。
-
-<!--more-->
 
 有感触的书
 ----------

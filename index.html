@@ -3,23 +3,25 @@ layout: default
 permalink: /
 ---
 
-<div class="container-fluid" id="index">
-    <h1 class="text-center" id="title">Brethland Yang</h1>
 
-    <div class="row" style="margin-top:5%;margin-bottom: 5%;width: 60%;margin-left: 20%;">
-        <a class="text-center" href="mailto:ycy1207694344@gmail.com" style="width: 25%;"><i
-                class="mdi mdi-email"></i></a>
-        <a class="text-center" href="https://github.com/Brethland" style="width: 25%;"><i
-                class="mdi mdi-github"></i></a>
-        <a class="text-center" href="https://twitter.com/Brethland" style="width: 25%;"><i
-                class="mdi mdi-twitter"></i></a>
-        <a class="text-center" href="https://bangumi.tv/user/brethland" style="width: 25%;"><i
-                class="mdi mdi-video-vintage"></i></a>
-    </div>
-
-    <p class="text-center"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img
-                alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"
-                style="border-width:0" /></a><br />
-        Die Luft der Freiheit weht.<br />
-        PLT &nbsp;/&nbsp; Mathematics &nbsp;/&nbsp; Literature &nbsp;/&nbsp; Otaku</p>
-</div>
+<img src="{{ site.baseurl }}/assets/img/brand.png" alt="YUKI.N>">
+  
+  <blockquote>
+    <p>
+      "The revolutionary wind blows from nowhere but somewhere."
+    </p>
+    </blockquote>
+  
+{% for category in site.categories %}
+  <h2>{{ category.first }}</h2>
+    <hr>
+  {% for post in category.last %}
+  <div>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+      </a>
+      <em style="float:right;">#{{ post.tag }}</em>
+  </div>
+  {% endfor %}
+  <div class="spacing"></div>
+{% endfor  %}

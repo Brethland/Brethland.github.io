@@ -1,42 +1,34 @@
-@font-face {
-    font-family: Iosevka-normal;
-    src: url('../font/Iosevka-normal.ttf');
-}
-
 :root {
     --code-background-color: #eaeaea;
-    --background-color: #fafafa;
+    --background-color: white;
     --border-color: gray;
     --accent-color: grey;
-    --code-font: Iosevka-normal, Courier, monospace;
+    --code-font: Courier, monospace;
 }
 
 body {
-	font-family: 'Alegreya', serif;
+    font-family: 'Alegreya', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', serif;
 }
 
 .container-fluid {
     padding-left: calc(8vh);
     padding-right: calc(8vh);
     max-width: 900px;
-    margin-top: calc(8vh);
+    margin: calc(8vh) auto;
 }
-
-.container-fluid#index {
-    margin-top: calc(20vh);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Iosevka-normal;
-}
-h1, h2, h3, h4, h5 { color: black; }
-h6 { color: #424242; }
 
 ol, ul { list-style-position: outside; }
 ol { list-style-type: upper-roman; }
 li { line-height: 1.2; }
 
-a { color: var(--accent-color); }
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 blockquote {
     padding-left: 2ch;
@@ -47,19 +39,14 @@ blockquote {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-fon-smoothing: grayscale;
-    border-left: 1.5px solid var(--border-color);
     color: var(--accent-color);
-}
-blockquote::first-letter {
-    float: left;
-    font-size: larger;
 }
 
 p {
     font-kerning: normal;
     line-break: normal;
     line-height: 150%;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 mark { background-color: yellowgreen; }
@@ -81,10 +68,10 @@ thead {
 hr {
     overflow: visible;
     padding: 0;
-    border: none;
     text-align: center;
-    border-top: medium double var(--border-color);
-    color: var(--border-color);
+    border-image: linear-gradient(to left, var(--background-color), black) 4;
+    border-style: solid;
+    border-width: 2px 0 0 0;
 }
 hr::after {
     content: "𝄞";
@@ -98,6 +85,8 @@ hr::after {
 
 strong, em { font-variant-ligatures: normal; }
 
+em { opacity: .5; }
+
 code {
     font-family: var(--code-font);
     padding: 0 0.1rem;
@@ -105,15 +94,15 @@ code {
 }
  
 img {
-    max-width: 80%;
+    max-width: 100%;
     padding: .8ch;
-    border: 3px double var(--border-color);
+    display: block;
+    margin: auto;
 }
 
 #footerwrap {
-    color: #bfc9d3;
-    margin-top: 160px;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .post-meta {
@@ -121,28 +110,48 @@ img {
     margin-bottom: .5em; 
 }
 
-.ctitle {
-    margin-bottom: 15px;
-}
-
 .spacing {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-/* @media (prefers-color-scheme: dark) {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+  margin-right: -9px;
+  text-align: right;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 4px 9px;
+  white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
     body {
-        color: rgba(255, 255, 255, 0.87);
-        background-color: #242424;
+        color: rgba(51, 255, 51, 0.87);
+        background-color: #282828;
     }
 
     a {
-        color: rgba(255, 255, 255, 0.6);
+        color: rgba(51, 255, 51, 0.6);
     }
 
-    hr {
-        border-top: medium double #eaeaea;
-        color: #eaeaea;
+    blockquote {
+	color: rgba(102, 255, 102, 0.87);
     }
-    hr::after { background-color: #242424; }
-} */
+
+    code {
+	background-color: #303030;
+	color: rgba(255, 176, 0, 0.87);
+    }
+    hr{
+	 border-image: linear-gradient(to left, #282828, rgba(51, 255, 51, 0.87)) 4;
+    }
+    hr::after { background-color: #282828; }
+}

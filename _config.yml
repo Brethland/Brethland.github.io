@@ -1,6 +1,5 @@
 title: Brethland's Blog
 brand: Brethland's Blog
-description:
 baseurl: ""
 url: "https://brethland.github.io"
 
@@ -14,5 +13,3 @@ markdown: kramdown
 kramdown:
     input: GFM
     hard_wrap: false
-
-excerpt_separator: <!--more-->

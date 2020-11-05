@@ -1,10 +1,9 @@
 ---
-layout: post
-title: Links
+layout: default
 ---
 
-## Webrings
-For glory of Internets.
+> "We are all connected. There is no differences between wired and real worlds."
+
 + [0xfaner](https://0xfaner.top)
 + [Aurora](https://mikukonai.com)
 + [ChenKS](https://blog.cattchen.top)
@@ -19,13 +18,3 @@ For glory of Internets.
 + [Yiayaz](https://yiayaz.github.io)
 + [Yuhi](https://yuhi.xyz)
 
-## Others
-Heavily used, recommended or maintained webs.
-+ [SAST Website](https://sast.njupt.edu.cn/info)
-+ [NOJ](https://acm.njupt.edu.cn)
-+ [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/index.html)
-+ [AniBaka](https://kyoani.cn/anibaka)
-+ [书格](https://new.shuge.org/)
-+ [LainChan](https://lainchan.org/)
-
-We are all connected. There is no differences between wired and real worlds.
