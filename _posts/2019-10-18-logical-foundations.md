@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Logical Foundations Notes"
+title:  "Logical Foundations"
 date:   2019-10-18 +0800
 categories: Notes
 tag: cs
 ---
-
-<!--more-->
 
 ### CH0 Preface
 
