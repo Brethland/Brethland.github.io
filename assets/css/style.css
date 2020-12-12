@@ -134,16 +134,16 @@ img {
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: rgba(51, 255, 51, 0.87);
+        color: rgba(255, 255, 255, 0.87);
         background-color: #282828;
     }
 
     a {
-        color: rgba(51, 255, 51, 0.6);
+        color: rgba(255, 255, 255, 0.6);
     }
 
     blockquote {
-	color: rgba(102, 255, 102, 0.87);
+	color: rgba(255, 255, 255, 0.87);
     }
 
     code {
@@ -151,7 +151,7 @@ img {
 	color: rgba(255, 176, 0, 0.87);
     }
     hr{
-	 border-image: linear-gradient(to left, #282828, rgba(51, 255, 51, 0.87)) 4;
+	 border-image: linear-gradient(to left, #282828, rgba(255, 255, 255, 0.87)) 4;
     }
     hr::after { background-color: #282828; }
 }
