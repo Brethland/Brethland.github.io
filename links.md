@@ -5,7 +5,7 @@ layout: default
 > "We are all connected. There is no differences between wired and real worlds."
 
 + [0xfaner](https://0xfaner.top)
-+ [Aurora](https://mikukonai.com)
++ [BD4SUR](https://bd4sur.com)
 + [ChenKS](https://blog.cattchen.top)
 + [duinomaker](https://duinomaker.top)
 + [eregerm](https://4eay7lab.com)
