@@ -26,7 +26,7 @@ This means we have built the number system on the observations of sizes, the siz
 
 Readers may be concerned that we start the counting at two, but what about *one* and *zero*? We need to be very careful when we talk about one. Only once we accept the forming of natual numbers from comparisons of sizes, can we accept the extreme case of this one-element row. This is an argument first proposed by Edmund Husserl. *One* is the first *negative* number, that is to say, one is lack of multiplicity. Nothing is being compared in an one-element row.
 
-When it comes to zero, things become more interesting. Not every numberical system has zero, and infact a number system without zero, denoted by $$\mathbb{N}^+$$, is isomorphic with natural number. Zero is a status ready to be extended, an extension of our counting method. Moreover, zero is essential when making $$(\mathbb{N}, +, \times)$$ a field.
+When it comes to zero, things become more interesting. Not every numberical system has zero, and in fact a number system without zero, denoted by $$\mathbb{N}^+$$, is isomorphic with natural number. Zero is a status ready to be extended, an extension of our counting method. Moreover, zero is essential when making $$(\mathbb{N}, +, \times)$$ a field.
 
 ### Infinity
 
