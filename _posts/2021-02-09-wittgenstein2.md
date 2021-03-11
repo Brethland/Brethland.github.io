@@ -8,7 +8,7 @@ categories: Essay
 
 Most of us shall be familiar with the famous quote of Ludwig Wittgenstein: *Wovon man nicht sprechen kann, daüber muss man schweigen.* But to which part man cannot speak of, and what the world out of logic look like, became an everstanding question in the history of philosophy and mathematics.
 
-I want to emphasize today that what Wittengenstein said about logic, in fact, turns out to be something that actually forbidden in logic. Not only ethics and religion, but also logic truth itself, cannot be said in logic, or precisely, first-order logic.
+I want to emphasize today that what Wittgenstein said about logic, in fact, turns out to be something that actually forbidden in logic. Not only ethics and religion, but also logic truth itself, cannot be said in logic, or precisely, first-order logic.
 
 A previous understanding of first-order logic and set theory is needed for this essay.
 
@@ -54,7 +54,7 @@ For one, we use: $$\forall y: 0 < y \implies x = y \lor x < y$$, and denote it a
 
 Here we give the definition of definability:
 
-Let $$A$$ be the domain of a structure $$\frak{U}$$. A subset X of the Cartesian power $$A^n$$ is *definable* in $$\frak{U}$$ if there is a first-order formula $$\phi(x1,...,xn)$$ of the language of the structure such that $$X = \{(a1,...,an)\ :\ \phi(a1,...,an)\ is\ true\ in\ \frak{U}\}$$.
+Let $$A$$ be the domain of a structure $$\frak{U}$$. A subset X of the Cartesian power $$A^n$$ is *definable* in $$\frak{U}$$ if there is a first-order formula $$\phi(x_1,...,x_n)$$ of the language of the structure such that $$X = \{(a_1,...,a_n)\ :\ \phi(a_1,...,a_n)\ is\ true\ in\ \frak{U}\}$$.
 
 In $$\mathbb{R}$$ there always exists undefinable element, like $$\pi$$. Thus we must expand such structure $$\frak{U}$$ into $$\frak{\bar{U}}$$ so that every element $$x$$ can be determined by a unique unary relation $$R(x)$$. If $$X$$ is definable in $$\frak{\bar{U}}$$, then it is said to be *parametrically definable* in $$\frak{U}$$.
 

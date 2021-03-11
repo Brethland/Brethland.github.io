@@ -14,7 +14,7 @@ layout: default
 + [PiKanglong](https://pikanglong.com)
 + [X3ZvaWQ](https://blog.x3zvawq.xyz)
 + [Xgsteins](http://xgsteins.fun)
-+ [xjzaq](http://xjzsq.ren)
++ [xjzsq](http://xjzsq.xyz)
 + [Yiayaz](https://yiayaz.github.io)
 + [Yuhi](https://yuhi.xyz)
 
