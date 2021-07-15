@@ -81,5 +81,5 @@ We rely on the power of logic, we also need some caution to understand what logi
 [^1]: To those curious readers, you can check any first-order formula on structure $$(\mathbb{N}, \lt)$$, but a more powerful tool to prove it will be introduced later. 
 [^2]: This is called **Church-Kleene** ordinal.
 [^3]: A joke: "Every natural number is interesting, if there is one uninteresting, then 'all numbers in front of it are interesting' makes it interesting too."
-[^4]: There is a proof by Gödel that arithmatic is not axiomatizable. Also, Tarski showed the set of all sentences are true is not definable in arithmetic, in his famous undefinability of truth theorem. 
+[^4]: There is a proof by Gödel that arithmetic is not axiomatizable. Also, Tarski showed the set of all sentences are true is not definable in arithmetic, in his famous undefinability of truth theorem. 
 
