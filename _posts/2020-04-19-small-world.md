@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "小型世界叙事"
+title:  "小型世界敘事"
 date:   2020-04-19 +0800
 categories: Essay
 tag: anime

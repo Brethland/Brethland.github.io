@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 绕越
+title: 繞越
 date: 2021-01-04 +0000
 tag: culture
 categories: Journal

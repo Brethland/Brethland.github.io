@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "对维特根斯坦的一些思想评述"
+title:  "對維特根斯坦的一些思想評述"
 date:   2019-02-23 +0800
 categories: Essay
 tag: philosophy

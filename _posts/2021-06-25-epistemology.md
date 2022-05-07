@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-06-25 +0000
-title: 由知至思的历史
+title: 由知至思的歷史
 categories: Essay
 tag: philosophy
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的逃离互联网之路
+title: 我的逃離互聯網之路
 date:   2020-08-12 +0800
 categories: Journal
 tag: cyber
