@@ -22,12 +22,10 @@ body {
 .container-fluid {
     padding-left: calc(8vh);
     padding-right: calc(8vh);
-    max-width: 900px;
-    margin: calc(8vh) auto;
 }
 
 .footer {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 20px;
     font-size: 18px;
 }

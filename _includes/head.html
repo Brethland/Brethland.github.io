@@ -6,14 +6,14 @@
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:title" content="{{ page.title }}" />
     <link rel="shortcut icon" href="https://yuki.systems/assets/favicon.png">
-    <link type="application/atom+xml" rel="alternate" href="https://yuki.systems/feed.xml"
+    <link type="application/atom+xml" rel="alternate" href="https://typ.moe/feed.xml"
         title="{{ site.title }}" />
 
     {% capture page_title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
     <title>{{ page_title }}</title>
     
-    <link href="https://cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya">
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>

@@ -8,7 +8,8 @@ permalink: /
     {% include head.html %}
 
     <body>
-    <div class="container-fluid">
+      <div id="cherry" style="width:100%;height:100%;position: absolute;z-index: -1;"></div>
+      <div class="container-fluid">
 
     {% include nav.html %}
 
@@ -30,11 +31,12 @@ permalink: /
     <a href="{{"/feed.xml" | prepend: site.baseurl }}">資訊</a> ｜
     <a href="mailto:brethland@gmail.com">通信</a>
     </nav>
-<footer class="footer" id="home-footer">
-  Brethland Ver1.05 @ 情報統合思念体 <br>
-<a href="https://github.com/Brethland">Github</a> | <a href="https://t.me/bungeibu">Telegram</a>
-| <a href="https://bangumi.tv/user/brethland">Bangumi</a>
-</footer>
-	</div>
+    <footer class="footer" id="home-footer">
+      Brethland Ver1.05 @ 情報統合思念体 <br>
+      <a href="https://github.com/Brethland">Github</a> | <a href="https://t.me/bungeibu">Telegram</a>
+      | <a href="https://bangumi.tv/user/brethland">Bangumi</a>
+    </footer>
+	  </div>
     </body>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/sakura.js"></script>
 </html>
