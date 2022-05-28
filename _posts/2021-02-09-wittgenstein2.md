@@ -12,7 +12,7 @@ I want to emphasize today that what Wittgenstein said about logic, in fact, turn
 
 A previous understanding of first-order logic and set theory is needed for this essay.
 
-### Numbers
+## Numbers
 
 Where does number come from? Does it just lie beyond the world, like logic? One may argue that set theory has already give us an elegant definition, which is $$\emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}...$$. This structure does have nicely well-ordered form, and be consistent with axioms of set theory. 
 
@@ -28,7 +28,7 @@ Readers may be concerned that we start the counting at two, but what about *one*
 
 When it comes to zero, things become more interesting. Not every numberical system has zero, and in fact a number system without zero, denoted by $$\mathbb{N}^+$$, is isomorphic with natural number. Zero is a status ready to be extended, an extension of our counting method. Moreover, zero is essential when making $$(\mathbb{N}, +, \times)$$ a field.
 
-### Infinity
+## Infinity
 
 Our number system works well in every *finite* domain, but arises a serve problem when considering about *infinity*. The two words only make sense when related. No infinity, no finiteness. If there is a man labourously append elements after the row, step by step, he will soon get an arbitary large set, but not infinity. Infinity is not any result of finiteness, it must begin from infinity.
 
@@ -42,7 +42,7 @@ Even from a logic insight, some debates do have their places. An example is the 
 
 These questions pushed the development of model theory on first-order logic, precisely, the definablity of elements, which I will show in next section.
 
-### Minimality
+## Minimality
 
 Since many first-order sentences can be talked about on structures, there must be structures where a set of sentences always be true. Formally, a set of sentences $$T$$ now has a *model* $$\frak{U}$$.
 
@@ -70,7 +70,7 @@ If we have such a theory $$T$$ that models arbitary large finite domain. Then, c
 
 This also brings another conclusion that no single sentence theory $$\{\phi\}$$ can describe infinity, which will make $$\{\neg \phi\}$$ describe finiteness. 
 
-### Last Words
+## Last Words
 
 Modern mathematics is built on set theory and logical deduction, but it does not mean this ground is so firm that no doubts can be presented. In 1929, Gödel proved the completeness theorem that if an axiom system is effectively presented, it must have a model whose domain is $$\mathbb{N}$$ and relation $$E$$ can be defined on $$(\mathbb{N}, +, \times)$$, so does **ZFC** itself!
 

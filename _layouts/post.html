@@ -1,7 +1,15 @@
----
-layout: default
----
-    <h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html>
 
-    <div class="post-meta">{{ page.date | date: "%d-%-m-%-Y" }} </div>
-    {{ content }}
+    {% include head.html %}
+
+    <body>
+        <div class="container-fluid">
+        <h1><a href="{{"/archive" | prepend: site.baseurl }}"> &lt;</a>  {{ page.title }}</h1>
+        <div class="post-meta">{{ page.date | date: "%d-%m-%-Y" }} </div>
+        {{ content }}
+
+	 {% include footer.html -%}
+	</div>
+    </body>
+</html>

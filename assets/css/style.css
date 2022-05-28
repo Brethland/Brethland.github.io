@@ -6,8 +6,17 @@
     --code-font: Courier, monospace;
 }
 
+@font-face {
+  font-family: 'Noto Serif TC';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/noto-serif-tc-v23-latin_chinese-traditional-regular.woff2') format('woff2'),
+       url('../fonts/noto-serif-tc-v23-latin_chinese-traditional-regular.woff') format('woff');
+}
+
 body {
-    font-family: 'Alegreya', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', serif;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .container-fluid {
@@ -17,9 +26,24 @@ body {
     margin: calc(8vh) auto;
 }
 
-ol, ul { list-style-position: outside; }
-ol { list-style-type: upper-roman; }
-li { line-height: 1.2; }
+.footer {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#home-footer {
+    position: absolute;
+    bottom: 2rem;
+}
+
+ol, ul {
+    list-style-position: outside;
+    line-height: 175%;
+}
+ol {
+    list-style-type: decimal;
+}
 
 a {
     color: var(--accent-color);
@@ -27,6 +51,7 @@ a {
 }
 
 a:hover {
+    color: rgb(15, 165, 235);
     text-decoration: underline;
 }
 
@@ -35,18 +60,21 @@ blockquote {
     margin-left: 1ch;
     position: relative;
     overflow: hidden;
-    font-family: 'EB Garamond', serif;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-fon-smoothing: grayscale;
     color: var(--accent-color);
 }
+
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.3em; }
+h6 { font-size: 1.25em; }
 
 p {
     font-kerning: normal;
     line-break: normal;
-    line-height: 150%;
-    font-size: 12pt;
+    line-height: 200%;
+    font-size: 1.25em;
 }
 
 mark { background-color: yellowgreen; }
@@ -100,11 +128,6 @@ img {
     margin: auto;
 }
 
-#footerwrap {
-    padding-top: 100px;
-    padding-bottom: 20px;
-}
-
 .post-meta {
     color: #888;
     margin-bottom: .5em; 
@@ -122,13 +145,13 @@ img {
 }
 
 .nav {
-  margin-right: -9px;
-  text-align: right;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .nav a {
   display: inline-block;
-  margin: 4px 9px;
+  margin: 1em;
   white-space: nowrap;
 }
 
