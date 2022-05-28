@@ -39,7 +39,7 @@ body {
 
 ol, ul {
     list-style-position: outside;
-    line-height: 175%;
+    line-height: 150%;
 }
 ol {
     list-style-type: decimal;
@@ -73,7 +73,7 @@ h6 { font-size: 1.25em; }
 p {
     font-kerning: normal;
     line-break: normal;
-    line-height: 200%;
+    line-height: 175%;
     font-size: 1.25em;
 }
 
