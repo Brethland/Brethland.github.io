@@ -1,5 +1,5 @@
 # Brethland.github.io
 
-My personal website at [yuki.systems](http://yuki.systems).
+My personal website at [typ.moe](https://typ.moe).
 
 Powered by Jekyll, typesetted by myself.

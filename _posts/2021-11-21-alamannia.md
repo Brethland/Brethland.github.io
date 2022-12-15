@@ -22,7 +22,7 @@ tag: culture
 <br/>
 她神經質地號哭着，尖銳地咒罵着一切她所能看到的東西，直到倦累，不再能支持自己站立。一旁的老松樹沙沙作響，悼念着已死和，未死的，不該死去的和死得其所的所有人。
 
-歐羅巴的墓地都非常[有意思][1]，它們或設計獨特，或環境優美，抑或埋葬着大名鼎鼎的人物，所謂的『歷史』人物。墓地往往是開放的，在遵守禮節的條件下，可以自由地參觀和祭拜。著名的譬如魏瑪的諸侯墓地，布拉格的高堡教堂墓地，是相當值得一覽的去處。而有些墓地也鮮有人至，它們和被埋葬者一道，淹沒在深不可測的時間里。傳奇，或者是怪談滋生的小角落，永不能描述盡的苦楚，這些辭藻都不能概述這些散落着的墓地，它們的獨特之處。
+歐羅巴的墓地都非常[有意思][1]，它們或設計獨特，或環境優美，抑或埋葬着大名鼎鼎的人物，所謂的「歷史」人物。墓地往往是開放的，在遵守禮節的條件下，可以自由地參觀和祭拜。著名的譬如魏瑪的諸侯墓地，布拉格的高堡教堂墓地，是相當值得一覽的去處。而有些墓地也鮮有人至，它們和被埋葬者一道，淹沒在深不可測的時間里。傳奇，或者是怪談滋生的小角落，永不能描述盡的苦楚，這些辭藻都不能概述這些散落着的墓地，它們的獨特之處。
 
 已經渡過冥河的那些往生者，代替生者承擔哀傷的重量，他們一次也不會回頭。這是另一種生死觀，也是另一種先祖崇拜。
 
@@ -58,5 +58,5 @@ tag: culture
 [2]:	https://en.wikipedia.org/wiki/St._Thomas_Church,_Leipzig
 [3]:	https://en.wikipedia.org/wiki/Marxist%E2%80%93Leninist_Party_of_Germany
 
-[image-1]:	https://speicherwolke.uni-leipzig.de/index.php/s/JHDd9dz9jEZeMPc/preview
-[image-2]:	https://speicherwolke.uni-leipzig.de/index.php/apps/files_sharing/publicpreview/zpRH7McEPbmdBep?x=4884&y=1778&a=true&file=Afd%2520und%2520MLPD.jpg&scalingup=0
+[image-1]:	https://heibox.uni-heidelberg.de/seafhttp/files/75d86a1e-d090-422d-bf45-fc90a9c46125/512-284-max.jpg
+[image-2]:	https://heibox.uni-heidelberg.de/seafhttp/files/5bb9c875-a362-4ee7-b932-dae6e5471e32/4096-2726-max.jpg
