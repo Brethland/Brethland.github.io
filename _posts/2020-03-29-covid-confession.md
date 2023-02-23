@@ -4,6 +4,7 @@ title:  "寫在年代之交"
 date:   2020-03-29 +0800
 categories: Journal
 tag: cyber
+lang: ZH
 ---
 
 ## 數字的力量

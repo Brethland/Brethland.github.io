@@ -4,6 +4,7 @@ date: 2021-06-25 +0000
 title: 由知至思的歷史
 categories: Essay
 tag: philosophy
+lang: ZH
 ---
 
 > 智者用言語編織自己的華裳

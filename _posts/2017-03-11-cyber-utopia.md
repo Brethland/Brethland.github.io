@@ -4,6 +4,7 @@ title:  "格洛克-月亮-大麻-格洛克"
 date:   2017-03-11 +0800
 categories: Essay
 tag: literature
+lang: ZH
 ---
 
 老莫吸第四十七根煙時，我陪在旁邊，天地間一片亮堂堂，升空的，與落地的，都燦爛得宛如星光。

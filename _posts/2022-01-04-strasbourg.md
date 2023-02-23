@@ -4,6 +4,7 @@ date: 2022-01-04 +0000
 layout: post
 categories: Journal
 tag: travel
+lang: ZH
 ---
 
 ## 23日
@@ -57,7 +58,7 @@ Cathédrale Notre Dame de Strasbourg)高142米，在17世紀前兩百多年間�
 
 聽到一半實在不耐，加上將近一點，睏意襲來，便中途離開了教堂，算是完成了在斯堡的最後一件心願。
 ![][image-16]
-P.S. 回來之後隔天法國 Omicron 變種就大爆發，一日新增 20 萬人，甚有種跑毒的意思。 
+後記： 回來之後隔天法國 Omicron 變種就大爆發，一日新增 20 萬人，甚有種跑毒的意思。 
 
 [image-1]:	https://lain.bgm.tv/pic/photo/l/a8/8d/529886_5MB55.jpg
 [image-2]:	https://lain.bgm.tv/pic/photo/l/a8/8d/529886_m5Z5I.jpg

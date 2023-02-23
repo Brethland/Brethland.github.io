@@ -4,6 +4,7 @@ title: What We Can Speak of
 date: 2021-02-09 +0000
 tag: philosophy
 categories: Essay
+lang: EN
 ---
 
 Most of us shall be familiar with the famous quote of Ludwig Wittgenstein: *Wovon man nicht sprechen kann, daüber muss man schweigen.* But to which part man cannot speak of, and what the world out of logic look like, became an everstanding question in the history of philosophy and mathematics.

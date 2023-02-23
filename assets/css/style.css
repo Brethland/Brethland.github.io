@@ -20,8 +20,12 @@ body {
 }
 
 .container-fluid {
-    padding-left: calc(8vh);
-    padding-right: calc(8vh);
+    margin-left: calc(8vh);
+    margin-right: calc(8vh);
+}
+
+.container-fluid-zh{
+    margin-top: calc(4vh);
 }
 
 .footer {
@@ -71,8 +75,8 @@ h6 { font-size: 1.25em; }
 p {
     font-kerning: normal;
     line-break: normal;
-    line-height: 175%;
-    font-size: 1.25em;
+    line-height: 150%;
+    font-size: 1.24em;
 }
 
 mark { background-color: yellowgreen; }
@@ -118,17 +122,26 @@ code {
     padding: 0 0.1rem;
     background-color: var(--code-background-color);
 }
- 
+
 img {
-    max-width: 100%;
     padding: .8ch;
     display: block;
+}
+
+.container-fluid img {
+    max-width: 100%;
     margin: auto;
+}
+
+.container-fluid-zh img {
+    max-width: 50%;
+    max-height: 30em;
 }
 
 .post-meta {
     color: #888;
     margin-bottom: .5em; 
+    margin-left: .5em;
 }
 
 .spacing {

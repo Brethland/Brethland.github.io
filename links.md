@@ -4,7 +4,7 @@ layout: default
 
 > "We are all connected. There is no difference between wired and real worlds."
 
-+ [0xfaner](https://0xfaner.top)
++ [0xfaner](https://blog.0xfaner.top)
 + [BD4SUR](https://bd4sur.com)
 + [Carlos Pi](https://pikanglong.com)
 + [ChenKS](https://blog.cattchen.top)
@@ -13,7 +13,7 @@ layout: default
 + [Hydrogen5](https://hydrogen5.github.io)
 + [Matrix72](https://www.matrix72.top)
 + [PiCpo](http://picpo.top)
-+ [SAST Info](https://sast.njupt.edu.cn/info)
++ [SAST Info](https://info.sast.fun)
 + [xgsteins](http://xgsteins.fun)
 + [xjzsq](http://xjzsq.ren)
 + [Xrazymee](https://xrazymee.xyz)

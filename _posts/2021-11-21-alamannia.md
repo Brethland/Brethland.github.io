@@ -4,6 +4,7 @@ date: 2021-11-21 +0000
 layout: post
 categories: Journal
 tag: culture
+lang: ZH
 ---
 
 ## 那些憂傷的老年人
@@ -58,5 +59,5 @@ tag: culture
 [2]:	https://en.wikipedia.org/wiki/St._Thomas_Church,_Leipzig
 [3]:	https://en.wikipedia.org/wiki/Marxist%E2%80%93Leninist_Party_of_Germany
 
-[image-1]:	https://heibox.uni-heidelberg.de/seafhttp/files/75d86a1e-d090-422d-bf45-fc90a9c46125/512-284-max.jpg
-[image-2]:	https://heibox.uni-heidelberg.de/seafhttp/files/5bb9c875-a362-4ee7-b932-dae6e5471e32/4096-2726-max.jpg
+[image-1]:	https://cdn.staticaly.com/gh/Brethland/blog-image@master/A01.webp
+[image-2]:	https://cdn.staticaly.com/gh/Brethland/blog-image@master/A02.webp
