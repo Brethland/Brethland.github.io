@@ -1,6 +1,6 @@
 ---
 title: 他者的技術史 —— 從打字機說起
-date: 2023-02-26 +0000
+date: 2023-02-25 +0000
 layout: post
 categories: Essay
 tag: tech
