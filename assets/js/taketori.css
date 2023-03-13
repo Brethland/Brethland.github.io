@@ -1,43 +1,6 @@
 @charset "UTF-8";
 
-.taketori-sans-serif-ja-jp {
-  font-family:  Avenir, 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, Roboto, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'Meiryo UI', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-}
-
-.taketori-sans-serif-zh-tw {
-  font-family: 'Heiti TC', 'LiHei Pro', '微軟正黑體', sans-serif !important;
-}
-
-.taketori-serif-ja-jp {
-  font-family: Garamond, 'Times New Roman', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'HGS明朝E', 'HG明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
-}
-
-.taketori-serif-zh-tw {
-  font-family: 'Apple LiSung', PMingLiu, '新細明體', serif !important;
-}
-
-.taketori-cursive-ja-jp {
-  font-family: 'ＤＦＰ行書体', 'ＤＦ行書体', 'AGENDA人名行書体L1', 'HGP行書体', 'HGS行書体', 'HG行書体', Garamond, 'Times New Roman', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'HGS明朝E', 'HG明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', cursive;
-}
-
-.taketori-cursive-zh-tw {
-  font-family: 'Apple LiSung', PMingLiu, '新細明體', serif !important;
-}
-
-.taketori-kai-ja-jp {
-  font-family: 'ＤＦＰ楷書体', 'HG正楷書体-PRO', Garamond, 'Times New Roman', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'HGS明朝E', 'HG明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
-}
-
-.taketori-kai-zh-tw {
-  font-family: '教育部標準楷書', '全字庫正楷體', '標楷體', 'BiauKai', 'STKaiti', Kai, serif !important;
-}
-
-.taketori-atsign-ja-jp,
-.taketori-atsign-zh-tw {
-  font-family: '@ＭＳ 明朝' !important;
-}
-
-.taketori-ttb { overflow: hidden;  position: relative; }
+.taketori-ttb { overflow-x: scroll;  position: relative; }
 .taketori-ttb span { cursor: vertical-text; }
 .taketori-ttb a span { cursor: pointer !important; }
 
@@ -330,7 +293,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  vertical-align: bottom;
 }
 
 /*  Use Writing Mode  */
@@ -339,7 +301,7 @@
   -webkit-writing-mode: vertical-rl;
   -o-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
-  /writing-mode: tb-rl;
+  writing-mode: tb-rl;
   _writing-mode: tb-rl;
 }
 .taketori-writingmode-ttb .ltr, .taketori-writingmode-ttb span.tcy {
@@ -349,7 +311,7 @@
   -webkit-writing-mode: horizontal-tb;
   -o-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
-  /writing-mode: lr-tb;
+  writing-mode: lr-tb;
   _writing-mode: lr-tb;
   vertical-align: middle\9;
 }
@@ -401,7 +363,7 @@
   -webkit-writing-mode: horizontal-tb;
   -o-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
-  /writing-mode: lr-tb;
+  writing-mode: lr-tb;
   _writing-mode: lr-tb;
   font-size: 0.8em;
   line-height: 1;

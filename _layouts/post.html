@@ -43,6 +43,11 @@
             lang: 'zh-tw',
             height: '38em' })
         .element('div.tategaki').toVertical();
+
+        window.addEventListener('wheel', (event) => {
+			event.preventDefault();
+            $('.tategaki').scrollLeft -= event.deltaY;
+		});
         </script>
         {% endif %}
 
