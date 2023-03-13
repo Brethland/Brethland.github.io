@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Noto Serif TC';
+  font-family: 'Noto Serif TC', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   src: local(''),
@@ -24,7 +24,7 @@ body {
     margin-right: calc(8vh);
 }
 
-.container-fluid-zh{
+.container-fluid-zh {
     margin-top: calc(4vh);
 }
 
@@ -36,7 +36,7 @@ body {
 
 #home-footer {
     position: absolute;
-    bottom: 2rem;
+    bottom: 2em;
 }
 
 ol, ul {

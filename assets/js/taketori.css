@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.taketori-ttb { overflow-x: scroll;  position: relative; }
+.taketori-ttb { overflow: scroll;  position: relative; }
 .taketori-ttb span { cursor: vertical-text; }
 .taketori-ttb a span { cursor: pointer !important; }
 
