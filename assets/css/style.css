@@ -194,3 +194,20 @@ img {
     }
     hr::after { background-color: #282828; }
 }
+
+@media (max-width: 768px) {
+    .header {
+        display: block;
+    }
+
+    #lang-selector {
+        display: flex;
+        font-size: 1em;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .nav {
+        font-size: 1.25em;
+    }
+}
