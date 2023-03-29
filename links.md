@@ -1,5 +1,7 @@
 ---
 layout: default
+lang: en
+title: Links
 ---
 
 > "We are all connected. There is no difference between wired and real worlds."

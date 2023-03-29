@@ -4,41 +4,26 @@ permalink: /
 
 <!DOCTYPE html>
 <html>
-
-    {% include head.html %}
-
     <body>
-      <div id="cherry" style="width:100%;height:100%;position: absolute;z-index: -1;"></div>
-      <div class="container-fluid">
-
-    {% include nav.html %}
-
-
-    <blockquote>
-    <p>
-      「妳在那兒築起一座城，<br>
-      　然後等待<br>
-      　山磨平棱角，<br>
-      　水面大到<br>
-      　吞下了城，<br>
-      　湖便是海海也是湖。」
-    </p>
-    </blockquote>
-
-    <div class="spacing"></div>
-
-    <nav class="nav">
-    <a href="{{"/archive" | prepend: site.baseurl }}">記錄</a>  ｜
-    <a href="{{"/links.html" | prepend: site.baseurl }}">聯結</a> ｜
-    <a href="{{"/about.html" | prepend: site.baseurl }}">資訊</a> ｜
-    <a href="mailto:i@typ.moe">通信</a>
-    </nav>
-    <footer class="footer" id="home-footer">
-      Brethland Ver1.191 @ 情報統合思念体  <br>
-      <a href="https://github.com/Brethland">Github</a> | <a href="https://t.me/bungeibu">Telegram</a>
-      | <a href="https://bangumi.tv/user/brethland">Bangumi</a> | <a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
-    </footer>
-	  </div>
+      Determining your language...
     </body>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/sakura.js"></script>
+    <script type="text/javascript">
+      const stored_lang = window.localStorage.getItem("perferred_language");
+      if(stored_lang != null) {
+        window.location.href = "/" + stored_lang + "/";
+      }else {
+        const sys_lang = Intl.DateTimeFormat().resolvedOptions().locale;
+        if(sys_lang.match("en").length != 0) {
+          var lang = "en";
+        }else if(sys_lang.match("de").length != 0) {
+          var lang = "de";
+        }else if(sys_lang.match("jp").length != 0) {
+          var lang = "jp";
+        }else {
+          var lang = "zh";
+        }
+        window.localStorage.setItem("perferred_language", lang);
+        window.location.href = "/" + lang + "/";
+      }
+    </script>
 </html>

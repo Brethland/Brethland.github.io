@@ -4,38 +4,41 @@
     {% include head.html %}
 
     <body>
-        {% if page.lang == "ZH" %}
+        {% if page.lang == "zh" and page.writing == "V" %}
         <div class="container-fluid-zh">
             <div class="tategaki">
-        {% elsif page.lang != "ZH" %}
+        {% else %}
         <div class="container-fluid">
         {% endif %}
 
-        <h1>
-            {{ page.title }}
-        </h1>
-        <div class="post-meta">{{ page.date | date: "%d-%m-%-Y" }}</div>
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+            {{ page.date | date: "%d/%m/%-Y" }}
+            {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% if posts.size > 1 %}
+            <div id="lang-selector">
+                {% for post in posts %}
+                | <a href="{{ post.url | prepend: site.baseurl }}">{{ site.data.translation[post.lang].name }}</a> 
+                {% endfor %} |
+            </div>
+            {% endif %}      
+        </div>
 
         {{ content }}
 
         <h4>
-        {% if page.lang == "ZH" %}
-        <a href="{{"/archive" | prepend: site.baseurl }}">「前頁」</a> 
-        | <a href="{{ "/" | prepend: site.base_url }}">「首頁」</a>
-        {% elsif page.lang != "ZH" %}
-        <a href="{{"/archive" | prepend: site.baseurl }}">&lt; Back</a>
-        | <a href="{{ "/" | prepend: site.base_url }}"> Home </a>
-        {% endif %}
+        <a href="/{{ page.lang }}/archive">{{ site.data.translation[page.lang].back }}</a> 
+        | <a href="/{{ page.lang }}">{{ site.data.translation[page.lang].home }}</a>
         </h4>
 
         {% include footer.html -%}
-        {% if page.lang == "ZH" %}
+        {% if page.lang == "zh" %}
         </div>
         {% endif %}
 
 	    </div>
 
-        {% if page.lang == "ZH" %}
+        {% if page.lang == "zh" %}
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/taketori.js" charset="UTF-8"></script>
         <script type="text/javascript">
         var taketori = (new Taketori())

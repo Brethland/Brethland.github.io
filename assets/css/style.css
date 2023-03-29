@@ -2,12 +2,12 @@
     --code-background-color: #eaeaea;
     --background-color: white;
     --border-color: gray;
-    --accent-color: grey;
+    --accent-color: #504040;
     --code-font: Courier, monospace;
 }
 
 @font-face {
-  font-family: 'Noto Serif TC', 'Times New Roman', Times, serif;
+  font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 400;
   src: local(''),
@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Serif TC', 'Times New Roman', serif;
 }
 
 .container-fluid {
@@ -32,11 +32,6 @@ body {
     padding-top: 80px;
     padding-bottom: 20px;
     font-size: 18px;
-}
-
-#home-footer {
-    position: absolute;
-    bottom: 2em;
 }
 
 ol, ul {
@@ -140,13 +135,23 @@ img {
 
 .post-meta {
     color: #888;
-    margin-bottom: .5em; 
-    margin-left: .5em;
+    border-bottom: 1px dashed;
+    display: block;
+    margin: .5em 0 .5em;
+}
+
+#lang-selector {
+    text-align: right;
+    font-variant: small-caps;
+    line-height: 0.5px;
+    letter-spacing: 3px;
+    padding: 20px 0 24px;
+    font-size: 1.25em;
 }
 
 .spacing {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .header {
