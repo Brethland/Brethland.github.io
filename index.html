@@ -13,11 +13,11 @@ permalink: /
         window.location.href = "/" + stored_lang;
       }else {
         const sys_lang = Intl.DateTimeFormat().resolvedOptions().locale;
-        if(sys_lang.match("zh").length != 0) {
+        if(sys_lang.match("zh") != null) {
           var lang = "zh";
-        }else if(sys_lang.match("de").length != 0) {
+        }else if(sys_lang.match("de") != null) {
           var lang = "de";
-        }else if(sys_lang.match("jp").length != 0) {
+        }else if(sys_lang.match("jp") != null) {
           var lang = "jp";
         }else {
           var lang = "en";
