@@ -6,7 +6,6 @@ tag: 文論
 lang: zh
 ref: small-world
 permalink: /zh/small-world
-writing: V
 ---
 
 ## 前言

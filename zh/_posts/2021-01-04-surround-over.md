@@ -6,7 +6,6 @@ tag: 故事
 lang: zh
 ref: surround-over
 permalink: /zh/surround-over
-writing: V
 ---
 
 對本真現實的虛構呓語，對不夜城裏衆人的一幅素描。

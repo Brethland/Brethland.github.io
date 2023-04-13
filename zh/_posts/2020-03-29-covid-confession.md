@@ -6,7 +6,6 @@ tag: 雜談
 lang: zh
 ref: covid-confession
 permalink: /zh/covid-confession
-writing: V
 ---
 
 ## 數字的力量

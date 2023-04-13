@@ -6,7 +6,6 @@ tag: 文論
 lang: zh
 ref: epistemology
 permalink: /zh/epistemology
-writing: V
 ---
 
 > 智者用言語編織自己的華裳

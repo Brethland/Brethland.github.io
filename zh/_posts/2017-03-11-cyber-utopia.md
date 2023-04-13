@@ -6,7 +6,6 @@ tag: 故事
 lang: zh
 ref: utopia
 permalink: /zh/utopia
-writing: V
 ---
 
 老莫吸第四十七根煙時，我陪在旁邊，天地間一片亮堂堂，升空的，與落地的，都燦爛得宛如星光。

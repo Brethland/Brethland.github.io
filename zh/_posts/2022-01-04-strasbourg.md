@@ -6,7 +6,6 @@ tag: 文論
 lang: zh
 ref: strasbourg
 permalink: /zh/strasbourg
-writing: V
 ---
 
 ## 23日

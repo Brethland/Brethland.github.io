@@ -6,7 +6,6 @@ tag: 雜談
 lang: zh
 ref: away-from-internet
 permalink: /zh/away-from-internet
-writing: V
 ---
 
 顯然，這個標題本身就只是一個僞命題罷了，因為完全脫離互聯網近乎是不可能的，而且也是愚蠢的。所以，我選擇了加上「之路」的後綴，來把這個逃離的行為作為故事和過程呈上，而不是作為簡單的宣言，或者是空洞無味的批判。

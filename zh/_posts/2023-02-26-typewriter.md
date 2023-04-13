@@ -6,7 +6,6 @@ tag: 文論
 lang: zh
 ref: typewriter
 permalink: /zh/typewriter
-writing: V
 ---
 
 這篇文章寫於去年五月，因為一些原因在當時沒有立刻公開，現在基於補全的目的將拙作付梓於網路。以下是正文：

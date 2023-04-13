@@ -10,22 +10,19 @@
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 400;
+  unicode-range: U+3000-30FF, U+FF00-FFEF, U+4E00-9FAF;
   src: local(''),
        url('../fonts/noto-serif-tc-v23-latin_chinese-traditional-regular.woff2') format('woff2'),
        url('../fonts/noto-serif-tc-v23-latin_chinese-traditional-regular.woff') format('woff');
 }
 
 body {
-    font-family: 'Noto Serif TC', 'Times New Roman', serif;
+    font-family: Noto Serif TC, Georgia, 'Times New Roman', Times, serif;
 }
 
 .container-fluid {
-    margin-left: calc(8vh);
-    margin-right: calc(8vh);
-}
-
-.container-fluid-zh {
-    margin-top: calc(4vh);
+    margin-left: calc(6vh);
+    margin-right: calc(6vh);
 }
 
 .footer {
@@ -128,11 +125,6 @@ img {
     margin: auto;
 }
 
-.container-fluid-zh img {
-    max-width: 50%;
-    max-height: 30em;
-}
-
 .post-meta {
     color: #888;
     border-bottom: 1px dashed;
@@ -189,6 +181,7 @@ img {
 	background-color: #303030;
 	color: rgba(255, 176, 0, 0.87);
     }
+
     hr{
 	 border-image: linear-gradient(to left, #282828, rgba(255, 255, 255, 0.87)) 4;
     }

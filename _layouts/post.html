@@ -4,12 +4,7 @@
     {% include head.html %}
 
     <body>
-        {% if page.lang == "zh" and page.writing == "V" %}
-        <div class="container-fluid-zh">
-            <div class="tategaki">
-        {% else %}
         <div class="container-fluid">
-        {% endif %}
 
         <h1>{{ page.title }}</h1>
         <div class="post-meta">
@@ -32,47 +27,6 @@
         </h4>
 
         {% include footer.html -%}
-        {% if page.lang == "zh" %}
-        </div>
-        {% endif %}
-
 	    </div>
-
-        {% if page.lang == "zh" %}
-        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/taketori.js" charset="UTF-8"></script>
-        <script type="text/javascript">
-        var taketori = (new Taketori())
-        .set({fontFamily:'Noto Serif TC', 
-            lang: 'zh-tw',
-            height: '36em', })
-        .element('div.tategaki').toVertical();
-
-        window.addEventListener('wheel', (event) => {
-			event.preventDefault();
-            $('.tategaki').scrollLeft -= event.deltaY;
-		});
-
-        window.addEventListener('keydown', (event) => {
-            if(event.defaultPrevented) {
-                return ;
-            }
-
-            const movingRate = 5.0;
-            switch(event.code) {
-                case "ArrowDown":
-                case "ArrowLeft":
-                    $('.tategaki').scrollLeft -= movingRate;
-                    break;
-                case "ArrowUp":
-                case "ArrowRight":
-                    $('.tategaki').scrollLeft += movingRate;
-                    break;
-            }
-
-            event.preventDefault();
-        });
-        </script>
-        {% endif %}
-
     </body>
 </html>

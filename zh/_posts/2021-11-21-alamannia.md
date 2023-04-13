@@ -6,7 +6,6 @@ tag: 故事
 lang: zh
 ref: alamannia
 permalink: /zh/alamannia
-writing: V
 ---
 
 ## 那些憂傷的老年人

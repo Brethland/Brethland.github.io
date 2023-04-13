@@ -6,7 +6,6 @@ tag: 雜談
 lang: zh
 ref: wittgenstein1
 permalink: /zh/wittgenstein1
-writing: V
 ---
 
 > 世界是事實而非物的總和。<br>

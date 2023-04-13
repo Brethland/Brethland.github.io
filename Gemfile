@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-# gem 'github-pages'
 gem 'jekyll'
 gem 'jekyll-babel'
 group :jekyll_plugins do
