@@ -12,6 +12,7 @@ permalink: /zh/links
 - ChenKS: [https://blog.cattchen.top](https://blog.cattchen.top)
 - duinomaker: [https://duinomaker.top](https://duinomaker.top)
 - Matrix72: [https://www.matrix72.top](https://www.matrix72.top)
+- Moroshima [https://kuroshima.eu.org](https://kuroshima.eu.org)
 - PiCpo: [http://picpo.top](http://picpo.top)
 - xgsteins: [http://xgsteins.fun](http://xgsteins.fun)
 - xjzsq: [http://xjzsq.ren](http://xjzsq.ren)

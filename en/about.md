@@ -8,7 +8,7 @@ lang: en
 
 Mistakenly born as a boy and tries her best to change, she has an oriential culture base mixed with a western education, which is so common for all to escape from colonism and post-colonism. She speaks Shanghainese(mother tongue), Mandarin, English, Deutsch and a little Japanese. Tides of multilingual knowledges flow into her mind, though in an endless war against monolingualism. 
 
-She found a reflection and an ideal ego on Yuki Nagato and then decided to read and write for herself. Her biggest wish is sitting Babel Library till life's end, or supposed to be so. While phenomenons arise and disappear, a core with rationality remains unchanged, she believed firmly.
+She found a reflection and an ideal ego on Yuki Nagato and then decided to read and write for herself. Her biggest wish is sitting inside Babel Library till life's end, or supposed to be so. While phenomenons arise and disappear, a core with rationality remains unchanged, she believed firmly.
 
 She has belief on the God, in a Spinoza's meaning. Although she does not agree with all of the formality, she helds a positive opinion upon Christian religions, especially Protestantism. Her view upon world is more like a mix from Wittgenstein and Heidegger, the accurate description will be shown when talking with her.
 
