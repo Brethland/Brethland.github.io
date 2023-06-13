@@ -14,6 +14,13 @@ She has belief on the God, in a Spinoza's meaning. Although she does not agree w
 
 She, luckily and thankfully, enjoys pure logical reasonings and dedicates most to mathematics. There's now little doubt that she will continue to do so.
 
+## Contact
+
+- [Mail](mailto:i@typ.moe)
+- [Telegram](https://t.me/bungeibu)
+- [Github](https://github.com/Brethland)
+- [Mastodon](https://mathstodon.xyz/@Brethland)
+
 ## This Site
 
 This site is intended as a personal blog. Related topics include mathematics, natural science, philosophy, literature(mainly in chinese) and journals about real life, though the author has only received trainings on first two of them, the correctness should then be taken for grant as possible as you, also as I can. When finding any typo and wrong fact, please inform the author with an email.
