@@ -30,7 +30,8 @@ permalink: /en/links
 
 ### Arts and Music
 
-- Diverse System: [https://diverse.system](https://diverse.system)
+- Conserve the Sound: [https://www.conservethesound.de](https://www.conservethesound.de)
+- Halcyon Maps: [https://www.halcyonmaps.com](https://www.halcyonmaps.com)
 
 ### Misc
 

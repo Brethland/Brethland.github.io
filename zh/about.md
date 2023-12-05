@@ -2,6 +2,7 @@
 layout: default
 title: 資訊
 lang: zh
+permalink: /zh/about
 ---
 
 ## 關於作者(Brethland, Brethy, ゆき)
@@ -16,10 +17,14 @@ lang: zh
 
 ## 通訊方式
 
-- [電郵](mailto:i@typ.moe)
-- [電報](https://t.me/bungeibu)
+- 電報 @bungeibu（請不要發送無意義的消息！）
+- i[at][site-domain]
+
+## 鏈接
+
 - [Github](https://github.com/Brethland)
 - [長毛象](https://mathstodon.xyz/@Brethland)
+- [我的稱呼](https://zh.pronouns.page/@Brethland)
 
 ## 關於本站
 

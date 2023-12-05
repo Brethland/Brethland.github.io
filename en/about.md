@@ -2,6 +2,7 @@
 layout: default
 title: About
 lang: en
+permalink: /en/about
 ---
 
 ## The Author(Brethland, Brethy, ゆき a.k.a. Yuki)
@@ -14,12 +15,21 @@ She has belief on the God, in a Spinoza's meaning. Although she does not agree w
 
 She, luckily and thankfully, enjoys pure logical reasonings and dedicates most to mathematics. There's now little doubt that she will continue to do so.
 
-## Contact
+## Biography(for those interested)
 
-- [Mail](mailto:i@typ.moe)
-- [Telegram](https://t.me/bungeibu)
+I am an undergraduate of Mathematics [@Ruperto-Carola](https://www.uni-heidelberg.de). My estimated graduate year is 2024.  -- TODO --
+
+Click [here]() for a detailed CV.
+
+## Contact
+- @bungeibu on Telegram(spams are not welcomed!)
+- i[at][site-domain]
+
+## Useful Links
+
 - [Github](https://github.com/Brethland)
 - [Mastodon](https://mathstodon.xyz/@Brethland)
+- [Pronous Page](https://en.pronouns.page/@Brethland)
 
 ## This Site
 
