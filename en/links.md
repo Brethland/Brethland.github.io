@@ -20,8 +20,10 @@ permalink: /en/links
 
 ### Maths, CS and Logic
 
+- Fourmilab: [https://www.fourmilab.ch](https://www.fourmilab.ch)
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - nLab: [https://ncatlab.org](https://ncatlab.org)
+- The Tao of Programming: [https://www.mit.edu/~xela/tao.html](https://www.mit.edu/~xela/tao.html)
 
 ### Philosophy and Natural Science
 
@@ -32,7 +34,9 @@ permalink: /en/links
 
 - Conserve the Sound: [https://www.conservethesound.de](https://www.conservethesound.de)
 - Halcyon Maps: [https://www.halcyonmaps.com](https://www.halcyonmaps.com)
+- Six Degrees of Wikipedia: [https://www.sixdegreesofwikipedia.com](https://www.sixdegreesofwikipedia.com)
 
 ### Misc
 
+- Heidelberg University: [https://www.uni-heidelberg.de](https://www.uni-heidelberg.de)
 - Library Genesis: [https://libgen.rs](https://libgen.rs)

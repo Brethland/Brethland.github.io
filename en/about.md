@@ -15,12 +15,6 @@ She has belief on the God, in a Spinoza's meaning. Although she does not agree w
 
 She, luckily and thankfully, enjoys pure logical reasonings and dedicates most to mathematics. There's now little doubt that she will continue to do so.
 
-## Biography(for those interested)
-
-I am an undergraduate of Mathematics [@Ruperto-Carola](https://www.uni-heidelberg.de). My estimated graduate year is 2024.  -- TODO --
-
-Click [here]() for a detailed CV.
-
 ## Contact
 - @bungeibu on Telegram(spams are not welcomed!)
 - i[at][site-domain]
@@ -33,7 +27,7 @@ Click [here]() for a detailed CV.
 
 ## This Site
 
-This site is intended as a personal blog. Related topics include mathematics, natural science, philosophy, literature(mainly in chinese) and journals about real life, though the author has only received trainings on first two of them, the correctness should then be taken for grant as possible as you, also as I can. When finding any typo and wrong fact, please inform the author with an email.
+This site is intended as a personal blog. Related topics include mathematics, natural science, philosophy, literature(mainly in Chinese) and journals about real life, though the author has only received trainings on first two of them, the correctness should then be taken for grant as possible as I can. When finding any typo and wrong fact, please inform the author with an email.
 
 Note that for different languages the site may vary, but a recommendation will appear on the page if there are other languages available. From time to time I will translate some pages(with loss of meanings) if possible, on the other hand they will be posted in original language at first, supports on translation are always welcome.
 
