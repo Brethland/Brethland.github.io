@@ -21,6 +21,7 @@ permalink: /en/links
 ### Maths, CS and Logic
 
 - Fourmilab: [https://www.fourmilab.ch](https://www.fourmilab.ch)
+- Homotopy Type Theory: [https://homotopytypetheory.org](https://homotopytypetheory.org)
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - nLab: [https://ncatlab.org](https://ncatlab.org)
 - The Tao of Programming: [https://www.mit.edu/~xela/tao.html](https://www.mit.edu/~xela/tao.html)
