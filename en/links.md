@@ -29,7 +29,7 @@ permalink: /en/links
 ### Philosophy and Natural Science
 
 - LessWrong: [https://lesswrong.com](https://lesswrong.com)
-- Standford Encyclopedia of Philosophy [https://plato.standford.edu](https://plato.standford.edu)
+- Standford Encyclopedia of Philosophy [https://plato.stanford.edu](https://plato.stanford.edu)
 
 ### Arts and Music
 
