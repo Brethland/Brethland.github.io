@@ -2,10 +2,8 @@
 layout: post
 title: 繞越
 date: 2021-01-04 +0000
-tag: 故事
 lang: zh
-ref: surround-over
-permalink: /zh/surround-over
+permalink: /surround-over
 ---
 
 對本真現實的虛構呓語，對不夜城裏衆人的一幅素描。

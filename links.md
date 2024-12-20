@@ -2,10 +2,10 @@
 layout: default
 lang: en
 title: Links
-permalink: /en/links
+permalink: /links
 ---
 
-### Exchanged Links
+### Friends
 
 - 0xfaner: [https://blog.0xfaner.top](https://blog.0xfaner.top)
 - BD4SUR: [https://bd4sur.com](https://bd4sur.com)
@@ -25,6 +25,8 @@ permalink: /en/links
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - nLab: [https://ncatlab.org](https://ncatlab.org)
 - The Tao of Programming: [https://www.mit.edu/~xela/tao.html](https://www.mit.edu/~xela/tao.html)
+- NJUPT SAST: [https://sast.fun](https://sast.fun)
+- HoTTEST: [https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html)
 
 ### Philosophy and Natural Science
 
@@ -40,4 +42,4 @@ permalink: /en/links
 ### Misc
 
 - Heidelberg University: [https://www.uni-heidelberg.de](https://www.uni-heidelberg.de)
-- Library Genesis: [https://libgen.rs](https://libgen.rs)
+- MtF Wiki: [https://mtf.wiki](https://mtf.wiki)

@@ -2,10 +2,8 @@
 title: 阿勒曼尼亞群像記
 date: 2021-11-21 +0000
 layout: post
-tag: 故事
 lang: zh
-ref: alamannia
-permalink: /zh/alamannia
+permalink: /alamannia
 ---
 
 ## 那些憂傷的老年人

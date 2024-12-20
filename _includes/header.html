@@ -1,8 +1,16 @@
 <header class="header">
     <h1><a href="/{{ page.lang }}">{{ site.brand }}</a></h1>
+    <nav class="nav">
+      |
+      <a href="/archive">{{ site.data.translation[page.lang].archive }}</a>  ｜
+      <a href="/links">{{ site.data.translation[page.lang].links }}</a> ｜
+      <a href="/{{ page.lang }}/about">{{ site.data.translation[page.lang].about }}</a>
+      |
+      </nav>
     <div id="lang-selector">
       {% for language in site.data.translation %}
       | <a href="/{{ language.last.code }}" title="{{ language.last.code }}" onclick="setLang()">{{ language.last.name }}</a> 
       {% endfor %} |
     </div>
   </header>
+  <hr>

@@ -2,10 +2,8 @@
 layout: post
 title:  "寫在年代之交"
 date:   2020-03-29 +0800
-tag: 雜談
 lang: zh
-ref: covid-confession
-permalink: /zh/covid-confession
+permalink: /covid-confession
 ---
 
 ## 數字的力量

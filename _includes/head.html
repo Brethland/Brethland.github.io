@@ -9,12 +9,12 @@
     {% capture page_title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
     <title>{{ page_title }}</title>
     
-    {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+    <!-- {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% if posts.size > 1 %}
       {% for post in posts %}
     <link rel="alternate" hreflang="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}" />
       {% endfor %}
-    {% endif %}
+    {% endif %} -->
 
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/lang-switch.js"></script>

@@ -2,10 +2,8 @@
 layout: post
 title:  "小型世界敘事"
 date:   2020-04-19 +0800
-tag: 文論
 lang: zh
-ref: small-world
-permalink: /zh/small-world
+permalink: /small-world
 ---
 
 ## 前言
@@ -145,8 +143,6 @@ permalink: /zh/small-world
 本文引述了許多宇野常寬的論點，希望未來能有國內的譯介者多多關注這位評論家。
 
 本文出自一個粳米的手下，其中對京都動畫可能過度包容，有失公正。
-
-謝謝大家的閱讀！
 
 [^1]: 從唯到麗奈，「想成為特別的人」也是一個值得關注的點
 

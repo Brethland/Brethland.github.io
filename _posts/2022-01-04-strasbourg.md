@@ -1,11 +1,9 @@
 ---
-title: 斯特拉斯堡聖地巡禮
+title: 斯特拉斯堡巡禮
 date: 2022-01-04 +0000
 layout: post
-tag: 文論
 lang: zh
-ref: strasbourg
-permalink: /zh/strasbourg
+permalink: /strasbourg
 ---
 
 ## 23日

@@ -2,10 +2,8 @@
 title: 他者的技術史 —— 從打字機說起
 date: 2023-02-25 +0000
 layout: post
-tag: 文論
 lang: zh
-ref: typewriter
-permalink: /zh/typewriter
+permalink: /typewriter
 ---
 
 這篇文章寫於去年五月，因為一些原因在當時沒有立刻公開，現在基於補全的目的將拙作付梓於網路。以下是正文：

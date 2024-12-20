@@ -1,0 +1,14 @@
+---
+layout: default
+lang: en
+---
+
+{% for post in site.posts %}
+  <div class="header" style="font-size: 1.25em;">
+     <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+      </a>
+      {{ post.date | date: "%d/%m/%-Y" }}
+  </div>
+  <br>
+{% endfor  %}

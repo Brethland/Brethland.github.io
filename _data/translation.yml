@@ -20,14 +20,13 @@ en:
   rss: Subscribe
   copyright: By default all contents of this site are under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC-BY-NC-SA 4.0</a>.
 
-# de: 
-#   name: Deutsch
-#   code: de
-#   back: Zurück
-#   home: Startseite
-#   archive: Einträge
-#   links: Links
-#   about: Über
-#   photo: Foto
-#   rss: Melden
-#   copyright: Alle Inhalte, falls sie nicht besondere bemerkt sind, sind unter der Lizenz <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" rel="license">CC BY-NC-SA 4.0</a> aufgeteilt.
+de: 
+  name: Deutsch
+  code: de
+  back: Zurück
+  home: Startseite
+  archive: Einträge
+  links: Links
+  about: Über
+  rss: Anmelden
+  copyright: Alle Inhalte, falls sie nicht besondere bemerkt sind, sind unter der Lizenz <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" rel="license">CC BY-NC-SA 4.0</a> aufgeteilt.
