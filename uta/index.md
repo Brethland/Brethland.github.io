@@ -1,0 +1,4 @@
+---
+title: うた
+collect: true
+---
