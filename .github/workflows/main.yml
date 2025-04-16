@@ -53,7 +53,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: $PAGE_URL
+      url: typ.moe
     runs-on: ubuntu-latest
     needs: build
     steps:
