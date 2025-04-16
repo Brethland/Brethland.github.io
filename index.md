@@ -1,5 +1,5 @@
 ---
-title: 北高文藝部
+title: Cheni Yuki Yang
 author: [Yuki](/yuki.md)
 link: [Links](./link.md)
 ---
@@ -16,4 +16,6 @@ You can read my blog articles, categorized as follows:
 [-](/uta/index.md#:embed)
 [-](/blechtrommel/index.md#:embed)
 
-Version 3.1415 @ 情報統合思念体
+This site is built with [kodama](https://github.com/kokic/kodama).
+
+Version 3.1415 @ 北高文藝部

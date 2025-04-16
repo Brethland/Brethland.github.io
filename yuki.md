@@ -2,5 +2,6 @@
 taxon: Person
 title: Cheni Yuki Yang
 homepage: [Homepage](https://typ.moe)
-footer-mode: link
 ---
+
+The name was written as Chenyi Yang before. In Chinese it is written as 「楊晨翌」
