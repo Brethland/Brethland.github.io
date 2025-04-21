@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ
+title: Curriculum vitæ
 ---
 
 [](/personal/education.md#:embed)
