@@ -8,15 +8,15 @@ title: Links
 - BD4SUR: [https://bd4sur.com](https://bd4sur.com)
 - ChenKS: [https://blog.cattchen.top](https://blog.cattchen.top)
 - duinomaker: [https://duinomaker.top](https://duinomaker.top)
-- Matrix72: [https://www.matrix72.top](https://www.matrix72.top)
-- Moroshima [https://kuroshima.eu.org](https://kuroshima.eu.org)
+- Matrix72: [https://www.mtx72.cc](https://www.mtx72.cc)
+- Moroshima [https://yunagi.dev](https://yunagi.dev)
 - PiCpo: [http://picpo.top](http://picpo.top)
-- xgsteins: [http://xgsteins.fun](http://xgsteins.fun)
 - xjzsq: [http://xjzsq.ren](http://xjzsq.ren)
 - Yuhi: [https://yuhi.xyz](https://yuhi.xyz)
 
 ### Mathematics
 
+- Alexander Grothendieck: [https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php)
 - Homotopy Type Theory: [https://homotopytypetheory.org](https://homotopytypetheory.org)
 - HoTTEST: [https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html)
 - Jacob Lurie: [https://www.math.ias.edu/~lurie/](https://www.math.ias.edu/~lurie/)
@@ -25,6 +25,8 @@ title: Links
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - $n$Lab: [https://ncatlab.org](https://ncatlab.org)
 - The Stacks Project: [https://stacks.math.columbia.edu](https://stacks.math.columbia.edu)
+- Vladimir Voevodsky: [https://www.math.ias.edu/vladimir/home](https://www.math.ias.edu/vladimir/home)
+- zbMATH [https://zbmath.org](https://zbmath.org)
 - 香蕉空間: [https://www.bananaspace.org](https://www.bananaspace.org)
 
 ### Others
