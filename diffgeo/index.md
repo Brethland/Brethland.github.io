@@ -11,3 +11,5 @@ This page is reserved for the course "Grundlagen der Geometrie und Topologie" ta
 [+](/diffgeo/diffgeo-w2.md#:embed)
 [+](/diffgeo/diffgeo-w3.md#:embed)
 [+](/diffgeo/diffgeo-w4.md#:embed)
+[+](/diffgeo/diffgeo-w5.md#:embed)
+[+](/diffgeo/diffgeo-w6w7.md#:embed)
