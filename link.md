@@ -17,6 +17,7 @@ title: Links
 ### Mathematics
 
 - Alexander Grothendieck: [https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php)
+- Conferences in Arithmetic Geometry: [https://kskedlaya.org/cgi-bin/confs.cgi](https://kskedlaya.org/cgi-bin/confs.cgi)
 - Homotopy Type Theory: [https://homotopytypetheory.org](https://homotopytypetheory.org)
 - HoTTEST: [https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html)
 - Jacob Lurie: [https://www.math.ias.edu/~lurie/](https://www.math.ias.edu/~lurie/)
@@ -25,6 +26,7 @@ title: Links
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - $n$Lab: [https://ncatlab.org](https://ncatlab.org)
 - The Stacks Project: [https://stacks.math.columbia.edu](https://stacks.math.columbia.edu)
+- Upcoming conferences in algebraic geometry: [https://math.stanford.edu/~vakil/conferences.html](https://math.stanford.edu/~vakil/conferences.html)
 - Vladimir Voevodsky: [https://www.math.ias.edu/vladimir/home](https://www.math.ias.edu/vladimir/home)
 - zbMATH [https://zbmath.org](https://zbmath.org)
 - 香蕉空間: [https://www.bananaspace.org](https://www.bananaspace.org)
