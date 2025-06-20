@@ -15,6 +15,7 @@ You can read my blog articles, categorized as follows:
 [-](/landscape/index.md#:embed)
 [-](/uta/index.md#:embed)
 [-](/blechtrommel/index.md#:embed)
+[-](/flow/index.md#:embed)
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 
