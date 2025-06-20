@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"><title>附錄：歐拉-拉格朗日方程的推導</title><link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/typst.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+<link
+  href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;family=Source+Sans+3:ital,wght@0,200..900;1,200..900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap"
+  rel="stylesheet">
+
+<style>
+  body {
+    font-family: "Source Serif 4", serif;
+  }
+
+  pre,
+  code {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  nav {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  thead {
+    font-family: "Source Sans 3", sans-serif;
+  }
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+  integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+  integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+  integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/copy-tex.min.js"
+  integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ],
+      strict: false,
+      throwOnError: false,
+      minRuleThickness: 0.05,
+    });
+  });
+</script></head><body><header class="header"><nav class="nav"><div class="logo"><span onclick="window.location.href='/landscape/theo/index'" title="JK 也能聽懂的理論物理">« JK 也能聽懂的理論物理</span></div></nav></header><div id="grid-wrapper"><article><section class="block" data-taxon=""><details open><summary id="landscape-theo-appendix1"><header><h1><span class="taxon"></span>附錄：歐拉-拉格朗日方程的推導 <a class="slug" href="/landscape/theo/appendix1">[appendix1]</a></h1><div class="metadata"><ul></ul></div></header></summary><p>我們的目標是尋找 $$S = \int_{t_1}^{t_2}\mathcal{L}(x, \dot{x}, t)dt$$ 的極小值，設極小分量$\epsilon(t)$，即使得</p>
+<p>$$S' - S = \int_{t_1}^{t_2}(\mathcal{L}(x + \epsilon, \dot{x} + \dot{\epsilon}, t) - \mathcal{L}(x, \dot{x}, t))dt = 0$$</p>
+<p>對$S'$進行泰勒展開</p>
+<p>$$\mathcal{L}(x + \epsilon, \dot{x} + \dot{\epsilon}, t) = \mathcal{L}(x) + (x + \epsilon - x)\frac{\partial \mathcal{L}}{\partial x} + (\dot{x} + \dot{\epsilon} - \dot{x})\frac{\partial \mathcal{L}}{\partial \dot{x}} + ...$$</p>
+<p>由於在$S$處取得極值，故我們舍棄二次以上項得</p>
+<p>$$\int_{t_1}^{t_2}(\epsilon\frac{\partial \mathcal{L}}{\partial x} + \dot{\epsilon}\frac{\partial \mathcal{L}}{\partial \dot{x}})dt = 0$$</p>
+<p>由分部積分得</p>
+<p>$$\int_{t_1}^{t_2}dt\dot{\epsilon}\frac{\partial \mathcal{L}}{\partial \dot{x}} = \epsilon\frac{\partial \mathcal{L}}{\partial \dot{x}}\biggr\rvert_{t_1}^{t_2} - \int_{t_1}^{t_2}dt\epsilon\frac{d}{dt}(\frac{\partial \mathcal{L}}{\partial \dot{x}})$$</p>
+<p>由於固定了起點和終點，因此我們有$\epsilon(t_1) = \epsilon(t_2) = 0$，代入得</p>
+<p>$$\int_{t_1}^{t_2}dt\epsilon(\frac{\partial \mathcal{L}}{\partial x} - \frac{d}{dt}(\frac{\partial \mathcal{L}}{\partial \dot{x}})) = 0$$</p>
+<p>由雷蒙引理(Du Bois-Reymond lemma)</p>
+<p>對$[x_1, x_2]$上的連續函數$f(x)$和無窮小量$\eta(x)$，若$\int_{x_1}^{x_2}\eta(x)f(x)dx = 0$且$\eta(x_1) = \eta(x_2) = 0$，我們有$f(x) = 0$。</p>
+<p>故</p>
+<p>$$\frac{\partial \mathcal{L}}{\partial x} - \frac{d}{dt}(\frac{\partial \mathcal{L}}{\partial \dot{x}}) = 0$$</p>
+<p>即歐拉-拉格朗日方程成立。</p>
+</details></section><footer></footer></article>
+
+</div></body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"><title>EPR 佯謬</title><link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/typst.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+<link
+  href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;family=Source+Sans+3:ital,wght@0,200..900;1,200..900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap"
+  rel="stylesheet">
+
+<style>
+  body {
+    font-family: "Source Serif 4", serif;
+  }
+
+  pre,
+  code {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  nav {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  thead {
+    font-family: "Source Sans 3", sans-serif;
+  }
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+  integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+  integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+  integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/copy-tex.min.js"
+  integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ],
+      strict: false,
+      throwOnError: false,
+      minRuleThickness: 0.05,
+    });
+  });
+</script></head><body><header class="header"><nav class="nav"><div class="logo"><span onclick="window.location.href='/landscape/theo/index'" title="JK 也能聽懂的理論物理">« JK 也能聽懂的理論物理</span></div></nav></header><div id="grid-wrapper"><article><section class="block" data-taxon=""><details open><summary id="landscape-theo-epr"><header><h1><span class="taxon"></span>EPR 佯謬 <a class="slug" href="/landscape/theo/epr">[epr]</a></h1><div class="metadata"><ul></ul></div></header></summary><blockquote>
+<p>It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.<br>
+— Niels Bohr</p>
+</blockquote>
+<p>愛因斯坦在隨後繼續致力於批評量子力學的非實在性，在1935年，他和波多爾斯基(Podolsky)、羅森(Rosen)共同發表論文提出了量子力學和局域實在假設的沖突，借此表明量子力學的不完備。簡單起見，我們闡述由玻姆重論述的佯謬(EPRB)。</p>
+<p>根據標準模型，粒子具有一種性質稱為自旋(spin)，其取值是離散的，例如（正）電子的自旋取值為$\pm \frac{1}{2}$。假設一個粒子在$x$軸上的自旋為$s$，則我們在與$x$軸夾角為$\theta$的方向上——根據量子力學——測得其自旋為$+s$的概率為$\frac{1 + cos\theta}{2}$，也即$+s$的期望為$scos\theta$。並且哥本哈根詮釋認為，該粒子在未經過測量前自旋是非實在的(non-determined)。</p>
+<p>現在，我們有一臺儀器同時發射一對糾纏的正負電子，它們的自旋態疊加為0，也即（同樣省略狄拉克記法）：</p>
+<p>$$\phi =\frac{1}{\sqrt{2}}(s \otimes (-s) - (-s) \otimes s)$$</p>
+<p>我們在對稱的方向（角度為$\pi$）安排了足夠遠（信息無法及時傳播）的兩個觀察者 A 與 B。觀察者 A 經過測量，得知電子的自旋為$s$，根據坍縮假設，疊加態坍縮為一種狀態，這時，觀察者 B 無需測量正電子，觀察者 A 即可得知正電子的自旋為$-s$，這顯然是實在的，同時也是超距(non-local)的，因此與哥本哈根詮釋矛盾。</p>
+<p>愛因斯坦接下來推導：為了不破壞定域性，也就是觀察者 A 的觀察必須不影響 B，一定有一個決定電子自旋的隱變量在發射的時候被確定了。 1952年，玻姆通過引入一個粒子自有的場（隱變量），發展了德布羅意(de Broglie)在1927年提出的導航波理論，解決了量子力學的非實在性，但是，其代價是這個場的傳播是超距的。</p>
+<p>讀者一定不會對 EPR 佯謬的思考方式感到陌生，貝爾就用一個生動的例子來評價 EPR 佯謬：如果 Bertlmann 教授喜歡穿不同顏色的襪子，那麽人們看到他一只腳的襪子是粉色時，也一定可以立即知道另一只腳的襪子一定不是粉色的，EPR 相關性無非就是這樣的日常相關性。</p>
+<p>對於愛因斯坦來說，不可接受的實際上不是這兩只襪子之間的關系，而是這種相關聯鬼魅般的超距(Spooky at Distance)，哥本哈根解釋沒能回答這個憂慮。愛因斯坦想做的是使用 EPR 關聯作為一個基礎來闡述量子力學的不完美而非錯誤，只是玻爾並沒有能理解這一點。</p>
+</details></section><footer></footer></article>
+
+</div></body></html>

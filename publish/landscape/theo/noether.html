@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"><title>諾特定理</title><link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/typst.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+<link
+  href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;family=Source+Sans+3:ital,wght@0,200..900;1,200..900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap"
+  rel="stylesheet">
+
+<style>
+  body {
+    font-family: "Source Serif 4", serif;
+  }
+
+  pre,
+  code {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  nav {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  thead {
+    font-family: "Source Sans 3", sans-serif;
+  }
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+  integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+  integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+  integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/copy-tex.min.js"
+  integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ],
+      strict: false,
+      throwOnError: false,
+      minRuleThickness: 0.05,
+    });
+  });
+</script></head><body><header class="header"><nav class="nav"><div class="logo"><span onclick="window.location.href='/landscape/theo/index'" title="JK 也能聽懂的理論物理">« JK 也能聽懂的理論物理</span></div></nav></header><div id="grid-wrapper"><article><section class="block" data-taxon=""><details open><summary id="landscape-theo-noether"><header><h1><span class="taxon"></span>諾特定理 <a class="slug" href="/landscape/theo/noether">[noether]</a></h1><div class="metadata"><ul></ul></div></header></summary><p>諾特定理本質上是個微分幾何領域的定理，但從前幾節我們已經或多或少感受出了運動系統和幾何流形之間的關系。偉大的發現往往把看似矛盾的事物聯系在了一起，這條理論物理的中心結論之一就是這樣，它從連續的對稱中發現了一種守恒的關系。</p>
+<p>證明這個定理的方法有許多種，但第一步是要形式化它。如果只是說「任意變換對稱性都有一個對應的守恒量」，是不準確的。我們說這句話省略了很多的前提。</p>
+<p>延續上一節的框架，我們定義在拉格朗日量$\mathcal{L}(q, t)$下，系統的微分增長為$\mathcal{L}(q + \delta_q, t + \delta_t)$，我們認為系統作用量此時具有對稱性，當且僅當$\delta_S = S(q') - S(q) = 0$。當我們將微分增長用無窮小量表示：</p>
+<p>$$q' = q + \delta_q = q + \epsilon \Delta q \\ t' = t + \delta_t = t + \epsilon \Delta t$$</p>
+<p>當且僅當$\epsilon$為一趨近於 0 的常量時成立，這時我們稱這系統具有「連續的全局對稱性」。同時，在這個範疇下我們需要一個確定的運動方程（比如 E-L 方程）來完成對稱性和守恒量之間的對應，也即該守恒量是「在殼」(on shell)的。</p>
+<p>如此諾特定理的準確表述是：一個離殼的連續全局對稱性具有一個在殼的守恒量$I = p\Delta q - \mathcal{L}$與之對應。</p>
+<p>回到第一節介紹的李代數，我有意略去了交換算子的介紹，在這裏，我們將詳細地說明。一個交換算子（李括號）是一種運算，它滿足下列三條規則：</p>
+<ol>
+<li>雙線性：$[X, aY + bZ] = a[X, Y] + b[X, Z]$</li>
+<li>反對稱：$[X, Y] = -[Y, X]$</li>
+<li>雅可比恒等性：$[X, [Y, Z]] + [Z, [X, Y]] + [Y, [Z, X]] = 0$</li>
+</ol>
+<p>在李代數對應的李群$G$上定義一組映射$F_t^a : G \to G$，使得它遵守$\frac{d}{dt} F_t^a(b) = [a, F_t^a(b)]$。顯然這組映射就是作用在$G$上的變換。我們可以驗證它很好地滿足了群公理。</p>
+<p>對於變換滿足的條件$F_t^a(b) = b$，我們說$a$產生了連續的全局對稱性，同時，$b$也自然是一個守恒量，現在我們要證明，$b$對該系統也具有連續的全局對稱性，即$F_t^b(a) = a$。</p>
+<p>對等式取微分即：</p>
+<p>$$\frac{d}{dt}F_t^a(b) = [a, F_t^a(b)] = 0$$</p>
+<p>在不變換的情況下，即使$t = 0$得：</p>
+<p>$$[a, F_0^a(b)] = [a, b] = -[b, a] = 0$$</p>
+<p>即$F_t^b(a) = a$證畢。諾特定理成立。</p>
+</details></section><footer></footer></article>
+
+</div></body></html>

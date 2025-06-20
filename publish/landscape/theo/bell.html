@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"><title>貝爾定律</title><link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/typst.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+<link
+  href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;family=Source+Sans+3:ital,wght@0,200..900;1,200..900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap"
+  rel="stylesheet">
+
+<style>
+  body {
+    font-family: "Source Serif 4", serif;
+  }
+
+  pre,
+  code {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  nav {
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  thead {
+    font-family: "Source Sans 3", sans-serif;
+  }
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+  integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+  integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+  integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/copy-tex.min.js"
+  integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ],
+      strict: false,
+      throwOnError: false,
+      minRuleThickness: 0.05,
+    });
+  });
+</script></head><body><header class="header"><nav class="nav"><div class="logo"><span onclick="window.location.href='/landscape/theo/index'" title="JK 也能聽懂的理論物理">« JK 也能聽懂的理論物理</span></div></nav></header><div id="grid-wrapper"><article><section class="block" data-taxon=""><details open><summary id="landscape-theo-bell"><header><h1><span class="taxon"></span>貝爾定律 <a class="slug" href="/landscape/theo/bell">[bell]</a></h1><div class="metadata"><ul></ul></div></header></summary><p>量子力學是超距的嗎？這個問題其實在很大程度上沒有回答的意義。讓我們先嚴謹地給出局域性的定義：物理實在(objects)在時空中的運動和作用，總是不超過光速地傳播並作用到另一物體。這裏的關鍵在於，我們要討論量子力學的超距性，必須先明白量子力學中的物理實在究竟是什麽，它們之間的作用究竟是什麽？</p>
+<p>這其實就是物理學的本體論(Ontology)問題。我們討論牛頓力學的超距性，是因為經典力學中有確切的物理實在——物體，確切的作用——重力，並且牛頓假定了重力的作用是即時的。量子力學在這個定義下無法回答是否超距的問題，是因為它們是模糊的。</p>
+<p>如此我們需要給出貝爾對定域性的描述。貝爾認為，兩件足夠遠發生的事件，或者說事實，讓我們設為$A$和$B$，在給出對區域$\Sigma$的物理性質描述$C_{\Sigma}$後，必須滿足以下概率公式：</p>
+<p>$$P[A\ |\ C_{\Sigma}] = P[A\ |\ C_{\Sigma},\ B]$$</p>
+<p>也即，兩件事件概率不相幹。</p>
+<p>如果我們具體地代入 EPRB 佯謬，設$A$事件為「電子的自旋為正」，$B$事件為「正電子的自旋為正」，而$C_{\Sigma}$，如果量子力學是完備的，那就可以設為電子處的完整物理描述，即電子的波函數。易得上式左邊為$50\%$，而右邊則為$0$。 但按照量子力學，這裏並不存在所謂的電子的波函數，因為這一對粒子是糾纏的，它們的波函數是一個整體而無法分離！</p>
+<p>若修正貝爾的定義，將$C_{\Sigma}$推廣為$\mathcal{C}$，也即，全域(Universe)的物理描述，似乎會更為妥當，這時的$\mathcal{C}$實際也就是兩個粒子的波函數$\Psi$，我們依然能得出上面的結果，也就是，經典量子力學並不滿足定域性。</p>
+<p>貝爾接下來做的，是通過一個美妙的不等式展現出：沒有符合貝爾局域性定義的隱變量理論能和量子力學在實驗上保持一致。</p>
+<p>有許多種方法可以推出貝爾不等式，我們在這裏采用一種與前述 EPR 相關的。</p>
+<p>定義$P(\hat{a}, \hat{b})$為在正負電子的兩個方向測定自旋的乘積的期望，為了方便起見，我們將自旋正規化為$+1$和$-1$。 顯然有：</p>
+<p>$$P(\hat{a}, \hat{b}) = P_{\hat{a}\hat{b}}(++) + P_{\hat{a}\hat{b}}(—) - P_{\hat{a}\hat{b}}(+-) - P_{\hat{a}\hat{b}}(-+)$$</p>
+<p>我們已經知道（很容易從第二節推出），在$\hat{a}$和$\hat{b}$方向夾角為$\theta$時，同自旋方向的概率為$\frac{1}{2}sin^{2}(\frac{\theta}{2})$，異方向的概率為$\frac{1}{2}cos^{2}(\frac{\theta}{2})$。代入可知：</p>
+<p>$$P(\hat{a},\hat{b}) = -cos(\theta)$$</p>
+<p>接下來讓我們考慮一個帶有局域隱變量$\lambda$的理論，在 EPR 實驗中我們必須保證糾纏的正負電子該隱變量相同，以此來保證它們的關聯是局域的。設電子在$\hat{a}$方向的測量結果為$A(\hat{a}, \lambda)$，同理我們有$B(\hat{b}, \lambda)$。為了使隱變量理論滿足統計力學（以及貝爾對局域性的概率定義），該隱變量一定會有一個在時空中分布的概率密度函數$\rho(\lambda)$。因為這對粒子的糾纏性，它們在同方向的自旋一定相反，自然地，我們有：</p>
+<p>$$P(\hat{a}, \hat{b}) = \int\rho(\lambda)A(\hat{a}, \lambda)B(\hat{b}, \lambda)d\lambda = -\int\rho(\lambda)A(\hat{a}, \lambda)A(\hat{b}, \lambda)d\lambda$$</p>
+<p>又因為$A(\hat{b}, \lambda)A(\hat{b}, \lambda) = 1$，因此：</p>
+<p>$$|P(\hat{a}, \hat{b}) - P(\hat{a}, \hat{c})|\\ = | -\int\rho(\lambda)(A(\hat{a}, \lambda)A(\hat{b}, \lambda) - A(\hat{a}, \lambda)A(\hat{c}, \lambda))d\lambda|\\
+= |\int\rho(\lambda)(A(\hat{a}, \lambda)A(\hat{b}, \lambda) - A(\hat{a}, \lambda)A(\hat{b}, \lambda)A(\hat{b}, \lambda)A(\hat{c}, \lambda))d\lambda|\\
+= |\int\rho(\lambda)((1 - A(\hat{b}, \lambda)A(\hat{c}, \lambda))A(\hat{a}, \lambda)A(\hat{b}, \lambda))d\lambda|$$</p>
+<p>因為$A(\hat{a}, \lambda)A(\hat{b}, \lambda) \in [-1, 1]$，易知：</p>
+<p>$$|P(\hat{a}, \hat{b}) - P(\hat{a}, \hat{c})|\\
+\le \int\rho(\lambda)(1 - A(\hat{b}, \lambda)A(\hat{c}, \lambda))d\lambda \\
+= 1 + P(\hat{b}, \hat{c})$$</p>
+<p>此即貝爾不等式。</p>
+<p>容易獲知量子力學並不滿足貝爾不等式，取$\hat{a}$與$\hat{c}$夾角為$\frac{2\pi}{3}$，而$\hat{b}$在其角平分線上時，該不等式不成立。事實上，至今所有的量子統計力學實驗都說明了貝爾不等式的不成立，也即是，滿足貝爾不等式的局域性理論無法與量子力學取得一致。</p>
+</details></section><footer></footer></article>
+
+</div></body></html>
