@@ -43,7 +43,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Kodama
         run: |
-          kodama c --short-slug --footer-mode embed
+          kodama build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
