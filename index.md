@@ -1,7 +1,8 @@
 ---
 title: Cheni Yuki Yang
-author: [Yuki](/yuki.md)
+author: [About](/yuki.md)
 link: [Links](./link.md)
+new: [What's new](./new.md)
 ---
 
 I study mathematics, create music and write poems.
@@ -16,6 +17,11 @@ You can read my blog articles, categorized as follows:
 [-](/uta/index.md#:embed)
 [-](/blechtrommel/index.md#:embed)
 [-](/flow/index.md#:embed)
+
+Something (non)academic:
+
+[-](/slides/index.md#:embed)
+
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 

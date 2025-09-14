@@ -1,5 +1,6 @@
 ---
 title: Links
+backlinks: false
 ---
 
 ### Friends
@@ -10,6 +11,7 @@ title: Links
 - duinomaker: [https://duinomaker.top](https://duinomaker.top)
 - Matrix72: [https://www.mtx72.cc](https://www.mtx72.cc)
 - Moroshima [https://yunagi.dev](https://yunagi.dev)
+- NKID00 [https://nk0.me/](https://nk0.me/)
 - PiCpo: [http://picpo.top](http://picpo.top)
 - xjzsq: [http://xjzsq.ren](http://xjzsq.ren)
 - Yuhi: [https://yuhi.xyz](https://yuhi.xyz)
