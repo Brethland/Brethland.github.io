@@ -18,11 +18,11 @@ You can read my blog articles, categorized as follows:
 [-](/blechtrommel/index.md#:embed)
 [-](/flow/index.md#:embed)
 
-Something (non)academic:
+Here are some non-academic talks:
 
 [-](/slides/index.md#:embed)
 
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 
-Version 3.1415 @ 北高文藝部
+Version 3.14159 @ 北高文藝部
