@@ -13,7 +13,7 @@ You may want to see my [curriculum vitæ](/cv.md).
 
 [](/contact.md#:embed)
 
-[](/notes/index.md#:embed)
+[-](/notes/index.md#:embed)
 
 You can read my blog articles, categorized as follows:
 

@@ -4,7 +4,8 @@ assets = "assets"
 base-url = "/"
 themes = [
   "themes/default.html",
-  "themes/forester.html",
+  "themes/serena.html",
+  "themes/kodama.html",
 ]
 
 [toc]
