@@ -5,11 +5,15 @@ link: [Links](./link.md)
 new: [What's new](./new.md)
 ---
 
+This site is built with [kodama](https://github.com/kokic/kodama).
+
 I study mathematics, create music and write poems.
 
 You may want to see my [curriculum vitæ](/cv.md).
 
 [](/contact.md#:embed)
+
+[](/notes/index.md#:embed)
 
 You can read my blog articles, categorized as follows:
 
@@ -18,11 +22,4 @@ You can read my blog articles, categorized as follows:
 [-](/blechtrommel/index.md#:embed)
 [-](/flow/index.md#:embed)
 
-Here are some non-academic talks:
-
-[-](/slides/index.md#:embed)
-
-
-This site is built with [kodama](https://github.com/kokic/kodama).
-
-Version 3.14159 @ 北高文藝部
+Version 18.11.2025 @ 北高文藝部

@@ -2,6 +2,10 @@
 trees = "./" 
 assets = "assets"
 base-url = "/"
+themes = [
+  "themes/default.html",
+  "themes/forester.html",
+]
 
 [toc]
 placement = "right"

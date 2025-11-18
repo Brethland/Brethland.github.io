@@ -1,6 +1,7 @@
 ---
 title: Die Blechtrommel
 collect: true
+taxon: \>
 ---
 
 The title comes from the fiction [Die Blechtrommel](https://de.wikipedia.org/wiki/Die_Blechtrommel).

@@ -1,7 +1,7 @@
 ---
 title: 小型世界敘事
-author: [Yuki](/yuki.md)
 !date: April 19, 2020
+author: [Yuki](/yuki.md)
 license: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 ---
 

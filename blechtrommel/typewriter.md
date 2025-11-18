@@ -1,7 +1,7 @@
 ---
 title: 他者的技術史 —— 從打字機說起
-author: [Yuki](/yuki.md)
 !date: February 25, 2023
+author: [Yuki](/yuki.md)
 license: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 ---
 

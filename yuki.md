@@ -11,3 +11,5 @@ The name was written as Chenyi Yang before. In Chinese it is written as 「楊�
 她將長門 有希視作自己的倒影和理想人格。她此生的夙願可能是做一個通天圖書館的管理員，直至死亡將她與知識分離。
 
 很幸運的是，她生來便很喜歡做純粹邏輯性的思考並感謝上蒼。她追求所有美麗的數學知識，並在可見的將來也會繼續如此。
+
+[-](/cv.md#:embed)

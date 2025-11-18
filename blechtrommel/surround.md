@@ -1,7 +1,7 @@
 ---
 title: 繞越
-author: [Yuki](/yuki.md)
 !date: January 04, 2021
+author: [Yuki](/yuki.md)
 license: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 ---
 

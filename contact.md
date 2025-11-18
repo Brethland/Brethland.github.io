@@ -1,5 +1,6 @@
 ---
 title: Contact
+taxon: \>
 ---
 
 - @bungeibu on Telegram

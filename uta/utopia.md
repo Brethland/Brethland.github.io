@@ -1,7 +1,7 @@
 ---
 title: 格洛克-月亮-大麻-格洛克
-author: [Yuki](/yuki.md)
 !date: March 11, 2017
+author: [Yuki](/yuki.md)
 license: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 ---
 
