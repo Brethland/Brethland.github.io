@@ -5,7 +5,7 @@ base-url = "/"
 themes = [
   "themes/default.html",
   "themes/serena.html",
-  "themes/kodama.html",
+  "themes/zenwritten.html",
 ]
 
 [toc]
