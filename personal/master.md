@@ -1,5 +1,6 @@
 ---
 title: Slice, décale and realize, motivically
+taxon: Master's Thesis
 !date: 2025
 author: [Cheni Yuki Yang](/yuki.md)
 ---

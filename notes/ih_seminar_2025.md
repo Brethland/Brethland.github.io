@@ -2,7 +2,7 @@
 ---
 title: Seminar on intersection homology
 !date: Summer term, 2025
-location: Universität Heidelberg
+location: [Universität Heidelberg](/places/uni_heidelberg.md)
 author: [Cheni Yuki Yang](/yuki.md)
 notes: [Note](https://typ.moe/assets/seminar_ih.pdf)
 ---

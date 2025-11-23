@@ -14,7 +14,6 @@ backlinks: false
 - NKID00: [https://nk0.me](https://nk0.me)
 - PiCpo: [http://picpo.top](http://picpo.top)
 - xjzsq: [http://xjzsq.ren](http://xjzsq.ren)
-- Yuhi: [https://yuhi.xyz](https://yuhi.xyz)
 
 ### Mathematics
 
@@ -42,8 +41,6 @@ backlinks: false
 - Conserve the Sound: [https://www.conservethesound.de](https://www.conservethesound.de)
 - Halcyon Maps: [https://www.halcyonmaps.com](https://www.halcyonmaps.com)
 - Six Degrees of Wikipedia: [https://www.sixdegreesofwikipedia.com](https://www.sixdegreesofwikipedia.com)
-- Universität Heidelberg: [https://www.uni-heidelberg.de](https://www.uni-heidelberg.de)
 - MtF Wiki: [https://mtf.wiki](https://mtf.wiki)
 - The Tao of Programming: [https://www.mit.edu/~xela/tao.html](https://www.mit.edu/~xela/tao.html)
-- NJUPT SAST: [https://sast.fun](https://sast.fun)
 - Fourmilab: [https://www.fourmilab.ch](https://www.fourmilab.ch)

@@ -1,6 +1,7 @@
 
 ---
 title: Cell complexes in homotopy type theory
+taxon: Bachelor's Thesis
 !date: 2024
 author: [Cheni Yuki Yang](/yuki.md)
 pdf: [PDF](https://typ.moe/assets/hott.pdf)

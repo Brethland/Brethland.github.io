@@ -5,8 +5,6 @@ link: [Links](./link.md)
 new: [What's new](./new.md)
 ---
 
-This site is built with [kodama](https://github.com/kokic/kodama).
-
 I study mathematics, create music and write poems.
 
 You may want to see my [curriculum vitæ](/cv.md).
@@ -22,4 +20,6 @@ You can read my blog articles, categorized as follows:
 [-](/blechtrommel/index.md#:embed)
 [-](/flow/index.md#:embed)
 
-Version 18.11.2025 @ 北高文藝部
+This site is built with [kodama](https://github.com/kokic/kodama).
+
+Version 23.11.2025 @ 北高文藝部

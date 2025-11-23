@@ -2,7 +2,7 @@
 ---
 title: Seminar on elliptic curves
 !date: Summer term, 2025
-location: Universität Heidelberg
+location: [Universität Heidelberg](/places/uni_heidelberg.md)
 author: [Cheni Yuki Yang](/yuki.md)
 notes: [Note](https://typ.moe/assets/seminar_ec.pdf)
 ---
