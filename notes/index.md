@@ -14,4 +14,5 @@ Some of my mathematical notes, use with caution!
 [](/notes/ih_seminar_2025.md#:embed)
 [](/notes/lean_talk_2025.md#:embed)
 [](/notes/mf_seminar_2025.md#:embed)
+[](/notes/ha_seminar_2026.md#:embed)
 [](/personal/master.md#:embed)
