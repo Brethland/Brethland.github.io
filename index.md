@@ -22,4 +22,4 @@ You can read my blog articles, categorized as follows:
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 
-Version 14.02.2026 @ 北高文藝部
+Version 02.04.2026 @ 北高文藝部
