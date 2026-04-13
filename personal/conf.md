@@ -14,3 +14,4 @@ I have participated in:
 [-.](/personal/conf/oxford_2025_cmi.md#:embed)
 [-.](/personal/conf/regensburg_2025_hi.md#:embed)
 [-.](/personal/conf/heidelberg_2025_fag.md#:embed)
+[-.](/personal/conf/wuppertal_2026_kat.md#:embed)

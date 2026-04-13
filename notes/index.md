@@ -16,3 +16,4 @@ Some of my mathematical notes, use with caution!
 [](/notes/mf_seminar_2025.md#:embed)
 [](/notes/ha_seminar_2026.md#:embed)
 [](/personal/master.md#:embed)
+[](/notes/kat_workshop_2026.md#:embed)
