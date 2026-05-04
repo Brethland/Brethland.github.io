@@ -5,7 +5,7 @@ backlinks: false
 
 ### Friends
 
-- 0xfaner: [https://blog.0xfaner.top](https://blog.0xfaner.top)
+- 0xfaner: [https://blog.0xfaner.site](https://blog.0xfaner.site)
 - 594Feipiao: [https://blog.feipiao.xyz/](https://blog.feipiao.xyz/)
 - BD4SUR: [https://bd4sur.com](https://bd4sur.com)
 - ChenKS: [https://blog.cattchen.top](https://blog.cattchen.top)
