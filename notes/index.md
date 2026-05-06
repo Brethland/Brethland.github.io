@@ -17,3 +17,4 @@ Some of my mathematical notes, use with caution!
 [](/notes/ha_seminar_2026.md#:embed)
 [](/personal/master.md#:embed)
 [](/notes/kat_workshop_2026.md#:embed)
+[](/notes/log_dr_witt_seminar_2026.md#:embed)
