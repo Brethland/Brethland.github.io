@@ -8,7 +8,6 @@ backlinks: false
 - 0xfaner: [https://blog.0xfaner.site](https://blog.0xfaner.site)
 - 594Feipiao: [https://blog.feipiao.xyz/](https://blog.feipiao.xyz/)
 - BD4SUR: [https://bd4sur.com](https://bd4sur.com)
-- ChenKS: [https://blog.cattchen.top](https://blog.cattchen.top)
 - duinomaker: [https://duinomaker.top](https://duinomaker.top)
 - Matrix72: [https://www.mtx72.cc](https://www.mtx72.cc)
 - Moroshima: [https://yunagi.dev](https://yunagi.dev)
