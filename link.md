@@ -20,14 +20,15 @@ backlinks: false
 - Alexander Grothendieck: [https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php)
 - Conferences in Arithmetic Geometry: [https://kskedlaya.org/cgi-bin/confs.cgi](https://kskedlaya.org/cgi-bin/confs.cgi)
 - Dustin Clausen:  [https://www.ihes.fr/~dustin/](https://www.ihes.fr/~dustin/)
-- Homotopy Type Theory: [https://homotopytypetheory.org](https://homotopytypetheory.org)
 - HoTTEST: [https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html)
 - Jacob Lurie: [https://www.math.ias.edu/~lurie/](https://www.math.ias.edu/~lurie/)
 - Kerodon: [https://kerodon.net](https://kerodon.net)
 - LMFDB: [https://www.lmfdb.org](https://www.lmfdb.org)
+- Mathematical Folklore: [https://www.math.ias.edu/~akshay/folklore.html](https://www.math.ias.edu/~akshay/folklore.html)
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - MathSciNet: [https://mathscinet.ams.org](https://mathscinet.ams.org)
 - $n$Lab: [https://ncatlab.org](https://ncatlab.org)
+- Peter Scholze: [https://people.mpim-bonn.mpg.de/scholze/](https://people.mpim-bonn.mpg.de/scholze/)
 - The Stacks Project: [https://stacks.math.columbia.edu](https://stacks.math.columbia.edu)
 - Upcoming conferences in algebraic geometry: [https://math.stanford.edu/~vakil/conferences.html](https://math.stanford.edu/~vakil/conferences.html)
 - Vladimir Voevodsky: [https://www.math.ias.edu/vladimir/home](https://www.math.ias.edu/vladimir/home)
@@ -36,6 +37,7 @@ backlinks: false
 
 ### Others
 
+- BASAC Training: [https://sites.google.com/view/basac-training/home](https://sites.google.com/view/basac-training/home)
 - LessWrong: [https://lesswrong.com](https://lesswrong.com)
 - Stanford Encyclopedia of Philosophy [https://plato.stanford.edu](https://plato.stanford.edu)
 - Conserve the Sound: [https://www.conservethesound.de](https://www.conservethesound.de)
@@ -43,4 +45,3 @@ backlinks: false
 - Six Degrees of Wikipedia: [https://www.sixdegreesofwikipedia.com](https://www.sixdegreesofwikipedia.com)
 - MtF Wiki: [https://mtf.wiki](https://mtf.wiki)
 - The Tao of Programming: [https://www.mit.edu/~xela/tao.html](https://www.mit.edu/~xela/tao.html)
-- Fourmilab: [https://www.fourmilab.ch](https://www.fourmilab.ch)
