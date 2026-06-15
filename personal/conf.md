@@ -5,8 +5,10 @@ collect: true
 
 You will find me in the following coming activities:
 
-[-.](/personal/conf/uea_2026_lean_lmfdb.md#:embed)
+[-.](/personal/conf/ch_2026_ytm.md#:embed)
+[-.](/personal/conf/fra_2026_non_archimedean.md#:embed)
 [-.](/personal/conf/cnrs_2026_cats8.md#:embed)
+[-.](/personal/conf/ch_2026_ag_ha.md#:embed)
 
 I have participated in:
 

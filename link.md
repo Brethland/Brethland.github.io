@@ -24,6 +24,7 @@ backlinks: false
 - Jacob Lurie: [https://www.math.ias.edu/~lurie/](https://www.math.ias.edu/~lurie/)
 - Kerodon: [https://kerodon.net](https://kerodon.net)
 - LMFDB: [https://www.lmfdb.org](https://www.lmfdb.org)
+- Leiden Declaration on Artificial Intelligence and Mathematics: [https://leidendeclaration.ai/](https://leidendeclaration.ai/)
 - Mathematical Folklore: [https://www.math.ias.edu/~akshay/folklore.html](https://www.math.ias.edu/~akshay/folklore.html)
 - Mathematics Genealogy Project: [https://mathgenealogy.org](https://mathgenealogy.org)
 - MathSciNet: [https://mathscinet.ams.org](https://mathscinet.ams.org)
