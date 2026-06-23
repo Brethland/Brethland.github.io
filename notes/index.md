@@ -18,3 +18,4 @@ Some of my mathematical notes, use with caution!
 [](/personal/master.md#:embed)
 [](/notes/kat_workshop_2026.md#:embed)
 [](/notes/log_dr_witt_seminar_2026.md#:embed)
+[](/notes/akn_seminar_2026.md#:embed)
