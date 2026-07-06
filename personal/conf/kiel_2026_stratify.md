@@ -1,7 +1,7 @@
 ---
 title: STRATIFYING KIEL: Stratified Spaces from Higher Category Theory to Applied Topology
 taxon: Conference
-!date: August 31st - September 4th, 2026
+!date: August 31 - September 04, 2026
 location: [Christian-Albrechts-Universität zu Kiel](/places/uni_kiel.md)
 homepage: [Homepage](https://www.math.uni-kiel.de/geometrie/de/essig/stratKiel2026)
 ---
