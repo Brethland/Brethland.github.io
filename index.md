@@ -11,9 +11,13 @@ You may want to see my [curriculum vitæ](/cv.md).
 
 [](/contact.md#:embed)
 
+The mathematical parts you might be interested in:
+
+[-](/personal/research/index.md#:embed)
+
 [-](/notes/index.md#:embed)
 
-You can read my blog articles, categorized as follows:
+You can also read my blog articles, categorized as follows:
 
 [-](/landscape/index.md#:embed)
 [-](/uta/index.md#:embed)
@@ -22,4 +26,4 @@ You can read my blog articles, categorized as follows:
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 
-Version 23.06.2026 @ 北高文藝部
+Version 06.07.2026 @ 北高文藝部
