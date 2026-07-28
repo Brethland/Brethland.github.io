@@ -1,7 +1,7 @@
 ---
 title: Rigidity of effective motives in equal characteristic case
 author: [Cheni Yuki Yang](/yuki.md)
-status: Ongoing
+status: ongoing
 ---
 
-We use a motivic tame twist inspired by [[Lüd24]](/bib/lueders2024tame.md) to construct a spectrum representing $\mathbb{G}_{m}$ in tame motives. As a consequence, we prove a rigidity result for tame motivic homotopy theory after passing to the logarithmic motivic homotopy category. This allows us in particular to construct a synthetic theory of spectra in $p$-adic setting.
+We give two constructions of the category of logarithmic prismatic $F$-gauges. The first one arises in the spirit of [CF26](/bib/CF2026prismatic.md) and the second one is a stacky approach à la Bhatt-Drinfeld-Lurie. We also define the $bb(A)^(1)$-localized version of them, thus provided a rigidity result for tame motives considered in [Mer25](/bib/merici2025tame.md). We discuss some connections with prismatic homotopy theory.
