@@ -30,6 +30,7 @@ backlinks: false
 - MathSciNet: [https://mathscinet.ams.org](https://mathscinet.ams.org)
 - $n$Lab: [https://ncatlab.org](https://ncatlab.org)
 - Peter Scholze: [https://people.mpim-bonn.mpg.de/scholze/](https://people.mpim-bonn.mpg.de/scholze/)
+- Spectra : [https://www.lgbtmath.org/](https://www.lgbtmath.org/)
 - The Stacks Project: [https://stacks.math.columbia.edu](https://stacks.math.columbia.edu)
 - Upcoming conferences in algebraic geometry: [https://math.stanford.edu/~vakil/conferences.html](https://math.stanford.edu/~vakil/conferences.html)
 - Vladimir Voevodsky: [https://www.math.ias.edu/vladimir/home](https://www.math.ias.edu/vladimir/home)
