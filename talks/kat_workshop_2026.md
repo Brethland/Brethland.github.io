@@ -6,4 +6,4 @@ author: [Cheni Yuki Yang](/yuki.md)
 notes: [Note](https://typ.moe/assets/seminar_thh.pdf)
 ---
 
-This is the note of the fourth talk given in [Kleine AT](https://kleineat.github.io/) II Workshop in Wuppertal.
+This is the note of the fourth talk given in [Kleine AT II](/personal/conf/wuppertal_2026_kat.md) workshop in Wuppertal.

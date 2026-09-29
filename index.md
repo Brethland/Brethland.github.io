@@ -17,6 +17,8 @@ The mathematical parts you might be interested in:
 
 [-](/notes/index.md#:embed)
 
+[](/talks/index.md#:embed)
+
 You can also read my blog articles, categorized as follows:
 
 [-](/landscape/index.md#:embed)
@@ -26,4 +28,4 @@ You can also read my blog articles, categorized as follows:
 
 This site is built with [kodama](https://github.com/kokic/kodama).
 
-Version 17.09.2026 @ 北高文藝部
+Version 29.09.2026 @ 北高文藝部
