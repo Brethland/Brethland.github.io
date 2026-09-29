@@ -17,7 +17,7 @@ The mathematical parts you might be interested in:
 
 [-](/notes/index.md#:embed)
 
-[](/talks/index.md#:embed)
+[-](/talks/index.md#:embed)
 
 You can also read my blog articles, categorized as follows:
 

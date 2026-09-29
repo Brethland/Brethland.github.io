@@ -2,7 +2,7 @@
 title: Research interests
 ---
 
-I am an *homotopical flavoured* algebraic geometer. In concrete sense, I am interested in motivic homotopy, algebraic $K$-theory, arithmetic cohomology and geometry and manifold calculus. 
+I am a *homotopical flavoured* algebraic geometer. In concrete sense, I am interested in motivic homotopy, algebraic $K$-theory, arithmetic cohomology and geometry and manifold calculus. 
 
 Currently, I am thinking about the rigidity of $p$-completed motivic homotopy category, using logarithmic techniques. This is the incarnation of a hugh program relating $p$-adic geometry and homotopy theory, I suggest looking at Jacob Lurie's [ICM talk](https://www.youtube.com/watch?v=wkUJoGqYFN4).
 
